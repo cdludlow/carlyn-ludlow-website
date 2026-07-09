@@ -1,0 +1,1938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Carlyn Ludlow — Learning Strategy &amp; Educator Preparation Executive</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+  :root{
+    --ink:      #1C2B45;
+    --parchment:#F6F3EC;
+    --card:     #FFFEFB;
+    --brass:    #A9812E;
+    --brass-lt: #C9A65A;
+    --slate:    #56606F;
+    --forest:   #33493C;
+    --line:     #DCD5C4;
+    --display: 'Source Serif 4', serif;
+    --body: 'IBM Plex Sans', sans-serif;
+    --mono: 'IBM Plex Mono', monospace;
+  }
+
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ scroll-behavior:smooth; }
+  body{ background:var(--parchment); color:var(--ink); font-family:var(--body); line-height:1.6; -webkit-font-smoothing:antialiased; }
+  a{ color:inherit; }
+  .wrap{ max-width:1080px; margin:0 auto; padding:0 32px; }
+
+  header.nav{ position:sticky; top:0; z-index:50; background:rgba(246,243,236,0.92); backdrop-filter:blur(6px); border-bottom:1px solid var(--line); }
+  .nav-inner{ max-width:1080px; margin:0 auto; padding:16px 32px; display:flex; align-items:center; justify-content:space-between; }
+  .nav-mark{ font-family:var(--display); font-weight:600; font-size:1.05rem; letter-spacing:0.02em; }
+  .nav-links{ display:flex; gap:22px; list-style:none; }
+  .nav-links a{ text-decoration:none; font-size:0.82rem; letter-spacing:0.03em; text-transform:uppercase; color:var(--slate); font-weight:500; transition:color .2s ease; }
+  .nav-links a:hover{ color:var(--brass); }
+  .nav-cv{ font-family:var(--mono) !important; color:var(--brass) !important; border:1px solid var(--brass); padding:6px 12px; }
+  @media (max-width:900px){ .nav-links{ display:none; } }
+
+  .hero{ padding:64px 0 46px; position:relative; overflow:hidden; min-height:calc(100vh - 74px); display:flex; align-items:center; }
+  .hero-inner{ display:grid; grid-template-columns: minmax(0,1fr) auto; gap:56px; align-items:start; }
+  .eyebrow{ font-family:var(--mono); font-size:0.78rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--brass); margin-bottom:18px; display:flex; align-items:center; gap:10px; }
+  .eyebrow::before{ content:''; width:28px; height:1px; background:var(--brass); }
+  h1.title{ font-family:var(--display); font-weight:500; font-style:italic; font-size:clamp(1.45rem, 2.7vw, 2.05rem); line-height:1.25; letter-spacing:-0.005em; margin-bottom:18px; color:var(--ink); }
+  h1.title em{ font-style:italic; color:var(--forest); font-weight:500; }
+  .hero-sub{ font-size:0.98rem; color:var(--slate); max-width:710px; margin-bottom:20px; line-height:1.65; }
+  .hero-sub + .hero-sub{ margin-top:-8px; }
+  .hero-cta{ display:flex; gap:16px; flex-wrap:wrap; }
+  .btn{ display:inline-flex; align-items:center; gap:8px; padding:12px 22px; border-radius:2px; font-size:0.88rem; font-weight:500; text-decoration:none; letter-spacing:0.01em; border:1px solid var(--ink); transition:all .2s ease; }
+  .btn-solid{ background:var(--ink); color:var(--parchment); }
+  .btn-solid:hover{ background:var(--forest); border-color:var(--forest); }
+  .btn-ghost{ background:transparent; color:var(--ink); }
+  .btn-ghost:hover{ background:var(--ink); color:var(--parchment); }
+  .btn-brass{ border-color:var(--brass); color:var(--brass); background:transparent; }
+  .btn-brass:hover{ background:var(--brass); color:var(--card); }
+
+  .seal{ width:212px; height:212px; border-radius:50%; border:2px solid var(--brass); display:flex; align-items:center; justify-content:center; position:relative; flex-shrink:0; margin-top:-26px; box-shadow:0 18px 45px rgba(28,43,69,0.08); }
+  .seal::before{ content:''; position:absolute; inset:12px; border:1.5px solid var(--brass-lt); border-radius:50%; }
+  .seal-initials{ font-family:var(--display); font-size:3.15rem; font-weight:600; color:var(--ink); }
+  @media (max-width:720px){ .hero-inner{ grid-template-columns:1fr; } .seal{ width:120px; height:120px; } .seal-initials{ font-size:1.9rem; } }
+
+  section{ padding:64px 0; border-top:1px solid var(--line); }
+  .section-head{ margin-bottom:44px; position:relative; padding-left:22px; border-left:3px solid var(--brass); }
+  .kicker{ font-family:var(--mono); font-size:0.72rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--brass); margin-bottom:8px; }
+  h2{ font-family:var(--display); font-weight:600; font-size:clamp(1.7rem,3vw,2.15rem); letter-spacing:-0.01em; line-height:1.18; }
+  h3.sub-head{ font-family:var(--display); font-weight:600; font-size:1.15rem; margin:36px 0 16px; color:var(--forest); }
+  .section-intro{ color:var(--slate); max-width:640px; margin-top:12px; }
+  .full-summary{ max-width:760px; color:var(--ink); font-size:1rem; line-height:1.75; margin-top:8px; }
+
+
+  .work-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .work-card{ background:var(--card); border:1px solid var(--line); border-top:3px solid var(--brass); padding:26px; }
+  .work-label{ font-family:var(--mono); font-size:0.72rem; letter-spacing:0.09em; text-transform:uppercase; color:var(--brass); display:block; margin-bottom:10px; }
+  .work-card h3{ font-family:var(--display); font-size:1.12rem; line-height:1.3; margin-bottom:10px; color:var(--ink); }
+  .work-card p{ color:var(--slate); font-size:0.9rem; line-height:1.65; }
+  .value-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+  .value-card{ background:var(--card); border:1px solid var(--line); padding:24px; }
+  .value-card h3{ font-family:var(--display); font-size:1.08rem; color:var(--forest); margin-bottom:9px; }
+  .value-card p{ color:var(--slate); font-size:0.9rem; line-height:1.6; }
+  @media (max-width:900px){ .work-grid,.value-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:620px){ .work-grid,.value-grid{ grid-template-columns:1fr; } }
+
+  /* PATHWAY */
+  .pathway{ position:relative; padding-top:8px; }
+  .pathway-track{ position:relative; display:flex; overflow-x:auto; gap:0; padding-bottom:24px; scrollbar-width:thin; scrollbar-color:var(--brass) transparent; }
+  .pathway-track::-webkit-scrollbar{ height:6px; }
+  .pathway-track::-webkit-scrollbar-thumb{ background:var(--brass-lt); border-radius:4px; }
+  .stop{ min-width:240px; flex:0 0 auto; position:relative; padding:0 28px 0 0; }
+  .stop-line{ position:relative; height:2px; background:var(--line); margin-bottom:22px; }
+  .stop:last-child .stop-line{ background:linear-gradient(to right, var(--line), transparent); }
+  .stop-dot{ position:absolute; top:-5px; left:0; width:12px; height:12px; border-radius:50%; background:var(--card); border:2px solid var(--brass); }
+  .stop.current .stop-dot{ background:var(--brass); }
+  .stop-years{ font-family:var(--mono); font-size:0.78rem; color:var(--brass); margin-bottom:8px; display:block; }
+  .stop-role{ font-family:var(--display); font-weight:600; font-size:1.05rem; margin-bottom:4px; line-height:1.25; }
+  .stop-org{ font-size:0.86rem; color:var(--slate); margin-bottom:10px; }
+  .stop-note{ font-size:0.86rem; color:var(--slate); line-height:1.55; padding-right:8px; }
+  .pathway-hint{ font-size:0.8rem; color:var(--slate); font-style:italic; margin-top:6px; }
+
+  /* LEDGER */
+  .ledger{ border-top:1px solid var(--ink); border-bottom:1px solid var(--ink); }
+  .ledger-row{ display:grid; grid-template-columns: 140px 1fr; gap:24px; padding:20px 0; border-bottom:1px solid var(--line); align-items:baseline; }
+  .ledger-row:last-child{ border-bottom:none; }
+  .ledger-num{ font-family:var(--mono); font-size:1.6rem; color:var(--forest); font-weight:500; }
+  .ledger-label{ color:var(--slate); font-size:0.95rem; }
+  .ledger-label strong{ color:var(--ink); font-weight:600; }
+  @media (max-width:600px){ .ledger-row{ grid-template-columns:90px 1fr; } .ledger-num{ font-size:1.25rem; } }
+
+  .tag-cloud{ display:flex; flex-wrap:wrap; gap:10px; }
+  .tag{ font-family:var(--mono); font-size:0.78rem; border:1px solid var(--line); padding:8px 14px; border-radius:2px; color:var(--slate); background:var(--card); }
+
+
+  details.exp-card{ cursor:default; }
+  details.exp-card summary{ list-style:none; cursor:pointer; }
+  details.exp-card summary::-webkit-details-marker{ display:none; }
+  details.exp-card .exp-head{ margin-bottom:0; }
+  details.exp-card summary .exp-head::after{
+    content:'+';
+    font-family:var(--mono);
+    color:var(--brass);
+    font-size:1.2rem;
+    margin-left:auto;
+    padding-left:16px;
+  }
+  details.exp-card[open] summary .exp-head::after{ content:'–'; }
+  details.exp-card[open] .exp-list{ margin-top:18px; }
+  .pub-list{ margin-top:8px; }
+
+  .exp-card{ background:var(--card); border:1px solid var(--line); border-left:3px solid var(--brass); padding:28px 32px; margin-bottom:20px; }
+  .exp-head{ display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
+  .exp-role{ font-family:var(--display); font-weight:600; font-size:1.15rem; }
+  .exp-org{ color:var(--slate); font-size:0.9rem; }
+  .exp-years{ font-family:var(--mono); font-size:0.8rem; color:var(--brass); white-space:nowrap; }
+  .exp-list{ list-style:none; }
+  .exp-list li{ position:relative; padding-left:18px; margin-bottom:10px; font-size:0.95rem; color:var(--ink); }
+  .exp-list li::before{ content:'—'; position:absolute; left:0; color:var(--brass); }
+
+  .recognition-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:2px; background:var(--line); border:1px solid var(--line); }
+  .rec-item{ background:var(--card); padding:22px 24px; }
+  .rec-year{ font-family:var(--mono); color:var(--brass); font-size:0.8rem; margin-bottom:6px; display:block; }
+  .rec-title{ font-size:0.92rem; }
+
+  .pub{ padding:16px 0; border-bottom:1px solid var(--line); font-size:0.92rem; color:var(--slate); }
+  .pub:last-child{ border-bottom:none; }
+  .pub-tag{ font-family:var(--mono); font-size:0.7rem; text-transform:uppercase; color:var(--forest); letter-spacing:0.06em; margin-right:10px; }
+  .pub-title{ color:var(--ink); font-weight:500; }
+
+  .edu-grid{ display:grid; gap:22px; }
+  .edu-item{ display:flex; gap:20px; align-items:baseline; flex-wrap:wrap; }
+  .edu-degree{ font-family:var(--display); font-weight:600; min-width:230px; }
+  .edu-school{ color:var(--slate); font-size:0.92rem; }
+
+  /* ACCORDIONS for the full CV detail */
+  details.acc{ background:var(--card); border:1px solid var(--line); margin-bottom:10px; }
+  details.acc summary{
+    list-style:none; cursor:pointer; padding:18px 24px;
+    font-family:var(--display); font-weight:600; font-size:1rem;
+    display:flex; justify-content:space-between; align-items:center;
+    color:var(--ink);
+  }
+  details.acc summary::-webkit-details-marker{ display:none; }
+  details.acc summary::after{
+    content:'+'; font-family:var(--mono); color:var(--brass); font-size:1.1rem; flex-shrink:0; margin-left:16px;
+  }
+  details.acc[open] summary::after{ content:'–'; }
+  details.acc summary .acc-meta{ font-family:var(--mono); font-size:0.76rem; color:var(--slate); font-weight:400; margin-left:12px; }
+  .acc-body{ padding:0 24px 24px; }
+  .acc-list{ list-style:none; }
+  .acc-list li{ position:relative; padding:10px 0 10px 18px; border-bottom:1px solid var(--line); font-size:0.92rem; color:var(--slate); }
+  .acc-list li:last-child{ border-bottom:none; }
+  .acc-list li::before{ content:'·'; position:absolute; left:0; color:var(--brass); font-weight:700; }
+  .acc-list li strong{ color:var(--ink); font-weight:600; }
+  .acc-list.plain li::before{ content:''; }
+  .acc-list.plain li{ padding-left:0; }
+  .acc-cols{ column-count:2; column-gap:32px; }
+  .acc-cols li{ break-inside:avoid; }
+  @media (max-width:720px){ .acc-cols{ column-count:1; } }
+
+  footer{ background:var(--ink); color:var(--parchment); padding:72px 0 40px; margin-top:20px; }
+  footer h2{ color:var(--parchment); }
+  footer .section-intro{ color:#B9C2D1; }
+  .contact-row{ display:flex; gap:20px; flex-wrap:wrap; margin-top:28px; align-items:center; }
+  .contact-item a{ text-decoration:none; color:var(--parchment); border-bottom:1px solid var(--brass-lt); padding-bottom:2px; font-size:0.95rem; }
+  .foot-bottom{ margin-top:56px; padding-top:24px; border-top:1px solid rgba(255,255,255,0.14); font-size:0.78rem; color:#8A94A6; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+
+  .reveal{ opacity:0; transform:translateY(14px); transition:opacity .6s ease, transform .6s ease; }
+  .reveal.in{ opacity:1; transform:translateY(0); }
+  @media (prefers-reduced-motion: reduce){ .reveal{ opacity:1; transform:none; transition:none; } html{ scroll-behavior:auto; } }
+  ::selection{ background:var(--brass-lt); color:var(--ink); }
+
+  /* Left-side section heading layout */
+  section > .wrap{
+    display:grid;
+    grid-template-columns:minmax(190px, 0.28fr) minmax(0, 1fr);
+    column-gap:52px;
+    align-items:start;
+  }
+  section > .wrap > .section-head{
+    grid-column:1;
+    grid-row:1 / span 50;
+    position:sticky;
+    top:96px;
+    margin-bottom:0;
+    padding-left:0;
+    padding-top:14px;
+    border-left:0;
+    border-top:3px solid var(--brass);
+  }
+  section > .wrap > :not(.section-head){
+    grid-column:2;
+  }
+
+  /* Keep the hero and pathway internals in their original full-width layouts */
+  .hero > .wrap,
+  #pathway > .wrap{
+    display:block;
+  }
+  #pathway > .wrap > .section-head{
+    position:relative;
+    top:auto;
+    margin-bottom:44px;
+    padding-left:22px;
+    padding-top:0;
+    border-top:0;
+    border-left:3px solid var(--brass);
+  }
+
+  @media (max-width:900px){
+    section > .wrap{
+      display:block;
+    }
+    section > .wrap > .section-head{
+      position:relative;
+      top:auto;
+      margin-bottom:36px;
+      padding-left:18px;
+      padding-top:0;
+      border-top:0;
+      border-left:3px solid var(--brass);
+    }
+  }
+
+
+  .nav-links{ gap:8px; align-items:center; }
+  .nav-links a{
+    border:1px solid transparent;
+    padding:9px 11px;
+    border-radius:2px;
+    background:rgba(255,254,251,0.38);
+  }
+  .nav-links a:hover,
+  .nav-links a.active{
+    color:var(--ink);
+    border-color:var(--brass-lt);
+    background:var(--card);
+    box-shadow:0 7px 18px rgba(28,43,69,0.06);
+  }
+  .nav-cv{
+    border-color:var(--brass) !important;
+    background:transparent !important;
+    color:var(--brass) !important;
+  }
+  .nav-cv:hover{
+    background:var(--brass) !important;
+    color:var(--card) !important;
+  }
+  @media (max-width:1080px){
+    .nav-inner{ align-items:flex-start; }
+    .nav-links{ flex-wrap:wrap; justify-content:flex-end; }
+    .nav-links a{ font-size:0.76rem; padding:7px 9px; }
+  }
+
+
+  .hero > .hero-cover{ display:block; }
+  .hero-opening{ max-width:900px; margin-bottom:24px; }
+  .hero-story{ display:grid; grid-template-columns:minmax(0, 1fr) 240px; gap:48px; align-items:start; }
+  .hero-copy{ min-width:0; }
+  .hero-story .seal{ justify-self:end; margin-top:8px; width:220px; height:220px; }
+  @media (max-width:900px){
+    .hero-story{ grid-template-columns:1fr; }
+    .hero-story .seal{ justify-self:center; margin-top:12px; }
+  }
+
+
+  /* Role/date inline formatting for Professional Experience */
+  details.exp-card summary .exp-head{
+    display:block;
+  }
+  details.exp-card summary .exp-role{
+    display:inline;
+  }
+  details.exp-card summary .exp-years{
+    display:inline;
+    margin-left:2ch;
+    white-space:nowrap;
+    font-size:0.82rem;
+    vertical-align:baseline;
+  }
+  details.exp-card summary .exp-org{
+    margin-top:6px;
+  }
+  details.exp-card summary .exp-head::after{
+    float:right;
+    margin-top:2px;
+  }
+
+
+  /* Refined header and navigation */
+  header.nav{
+    background:rgba(246,243,236,0.96);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{
+    max-width:1180px;
+    padding:18px 32px;
+    gap:28px;
+  }
+  .nav-mark{
+    display:flex;
+    flex-direction:column;
+    line-height:1.02;
+    min-width:210px;
+    color:var(--forest);
+  }
+  .nav-name{
+    font-family:var(--display);
+    font-size:1.75rem;
+    font-weight:700;
+    letter-spacing:-0.02em;
+    color:var(--forest);
+  }
+  .nav-degree{
+    font-family:var(--mono);
+    font-size:0.78rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--brass);
+    margin-top:5px;
+  }
+  .nav-links{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:4px;
+    flex:1;
+  }
+  .nav-links a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-height:38px;
+    padding:9px 12px;
+    border:0;
+    border-bottom:2px solid transparent;
+    border-radius:0;
+    background:transparent;
+    color:var(--slate);
+    font-size:0.76rem;
+    line-height:1.15;
+    letter-spacing:0.055em;
+    text-transform:uppercase;
+    font-weight:600;
+    text-decoration:none;
+    box-shadow:none;
+  }
+  .nav-links a:hover,
+  .nav-links a.active{
+    color:var(--ink);
+    background:rgba(255,254,251,0.72);
+    border-bottom-color:var(--brass);
+    box-shadow:none;
+  }
+  .nav-cv{
+    margin-left:8px;
+    border:1px solid var(--brass) !important;
+    border-bottom:1px solid var(--brass) !important;
+    padding:9px 13px !important;
+    color:var(--brass) !important;
+    background:transparent !important;
+    font-family:var(--mono) !important;
+    min-width:auto;
+  }
+  .nav-cv:hover,
+  .nav-cv.active{
+    background:var(--brass) !important;
+    color:var(--card) !important;
+  }
+  @media (max-width:1120px){
+    .nav-inner{
+      align-items:flex-start;
+    }
+    .nav-mark{
+      min-width:170px;
+    }
+    .nav-name{
+      font-size:1.45rem;
+    }
+    .nav-links{
+      flex-wrap:wrap;
+      row-gap:4px;
+    }
+    .nav-links a{
+      font-size:0.7rem;
+      padding:7px 9px;
+      min-height:32px;
+    }
+  }
+  @media (max-width:900px){
+    .nav-inner{
+      display:block;
+    }
+    .nav-mark{
+      min-width:0;
+    }
+    .nav-links{
+      display:none;
+    }
+  }
+
+
+  /* Navigation spacing and separators */
+  .nav-inner{
+    max-width:1240px;
+    padding:18px 28px;
+    gap:34px;
+  }
+  .nav-mark{
+    min-width:220px;
+    flex-shrink:0;
+  }
+  .nav-links{
+    gap:0;
+    flex-wrap:nowrap;
+    justify-content:flex-end;
+  }
+  .nav-links li{
+    display:flex;
+    align-items:center;
+    position:relative;
+  }
+  .nav-links li:not(:last-child)::after{
+    content:'';
+    width:1px;
+    height:18px;
+    background:var(--line);
+    display:block;
+    flex-shrink:0;
+  }
+  .nav-links a{
+    padding:9px 13px;
+    white-space:nowrap;
+  }
+  .nav-cv{
+    margin-left:12px;
+  }
+  @media (max-width:1180px){
+    .nav-inner{
+      padding-left:22px;
+      padding-right:22px;
+      gap:20px;
+    }
+    .nav-mark{
+      min-width:185px;
+    }
+    .nav-name{
+      font-size:1.5rem;
+    }
+    .nav-links a{
+      padding:8px 9px;
+      font-size:0.68rem;
+      letter-spacing:0.04em;
+    }
+    .nav-cv{
+      margin-left:8px;
+    }
+  }
+
+
+  /* Expanded career trajectory */
+  .path-stop-featured .path-dot{
+    width:20px;
+    height:20px;
+    background:var(--brass);
+    box-shadow:0 0 0 7px rgba(184,143,73,0.14);
+  }
+  .path-stop-featured .path-role{ color:var(--forest); }
+
+  .asu-trajectory{
+    margin-top:52px;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-top:3px solid var(--brass);
+    padding:34px;
+  }
+  .asu-trajectory-head{
+    max-width:760px;
+    margin-bottom:28px;
+  }
+  .asu-trajectory-head h3{
+    font-family:var(--display);
+    font-size:1.55rem;
+    color:var(--ink);
+    margin-bottom:10px;
+  }
+  .asu-trajectory-head p{
+    color:var(--slate);
+    font-size:0.94rem;
+    line-height:1.65;
+  }
+  .trajectory-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:26px;
+  }
+  .trajectory-track{
+    border:1px solid var(--line);
+    background:var(--cream);
+    padding:24px;
+  }
+  .track-label{
+    font-family:var(--mono);
+    font-size:0.75rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--brass);
+    padding-bottom:14px;
+    margin-bottom:4px;
+    border-bottom:1px solid var(--line);
+  }
+  .track-step{
+    display:grid;
+    grid-template-columns:105px minmax(0,1fr);
+    gap:14px;
+    align-items:start;
+    padding:15px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .track-step:last-child{ border-bottom:0; }
+  .track-year{
+    font-family:var(--mono);
+    font-size:0.74rem;
+    color:var(--slate);
+    white-space:nowrap;
+  }
+  .track-step strong{
+    font-size:0.91rem;
+    line-height:1.4;
+    color:var(--ink);
+  }
+  .current-step strong{ color:var(--forest); }
+
+  @media (max-width:900px){
+    .trajectory-grid{ grid-template-columns:1fr; }
+    .asu-trajectory{ padding:24px; }
+  }
+  @media (max-width:560px){
+    .track-step{ grid-template-columns:1fr; gap:5px; }
+  }
+
+</style>
+<style>#about{background:var(--card)}.about-layout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(300px,.75fr);gap:48px;align-items:start}.about-story{font-size:1.02rem;line-height:1.82;color:var(--slate)}.about-story p+p{margin-top:20px}.about-side{display:grid;gap:18px}.about-block{background:var(--cream);border:1px solid var(--line);border-top:3px solid var(--brass);padding:26px}.about-block h3{font-family:var(--display);font-size:1.25rem;color:var(--forest);margin-bottom:15px}.about-block p{color:var(--slate);font-size:.92rem;line-height:1.7}.about-list{list-style:none;padding:0;margin:0}.about-list li{padding:10px 0;border-bottom:1px solid var(--line);color:var(--slate);font-size:.92rem}.about-list li:last-child{border-bottom:0}.nav-inner{max-width:1320px;padding-left:24px;padding-right:24px;gap:20px}.nav-mark{min-width:200px}.nav-links a{padding-left:9px;padding-right:9px;font-size:.69rem;letter-spacing:.035em}@media(max-width:1240px){.nav-mark{min-width:175px}.nav-name{font-size:1.4rem}.nav-links a{padding-left:6px;padding-right:6px;font-size:.62rem}}@media(max-width:900px){.about-layout{grid-template-columns:1fr;gap:28px}}</style>
+
+<style>
+  #about .about-subsection{
+    grid-column:1 / -1;
+    margin-top:64px;
+    padding-top:52px;
+    border-top:1px solid var(--line);
+  }
+  #about .about-subsection .section-head{
+    position:relative;
+    top:auto;
+    grid-column:auto;
+    grid-row:auto;
+    margin-bottom:36px;
+    padding-left:22px;
+    padding-top:0;
+    border-top:0;
+    border-left:3px solid var(--brass);
+  }
+  #about .about-subsection > :not(.section-head){
+    grid-column:auto;
+  }
+  #about .about-education{
+    margin-top:56px;
+  }
+</style>
+
+
+<style>
+  /* Align nested About Me sections with the main About Me content column */
+  #about .about-subsection{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+  }
+  #about .about-subsection .section-head{
+    margin-left:0;
+    margin-right:0;
+  }
+  #about .about-subsection .value-grid,
+  #about .about-subsection .edu-grid,
+  #about .about-subsection .education-grid,
+  #about .about-subsection .edu-list{
+    margin-left:0;
+    margin-right:0;
+    width:100%;
+  }
+  #about > .wrap{
+    display:block;
+  }
+  #about > .wrap > .section-head{
+    width:100%;
+  }
+</style>
+
+
+<style>
+  #about > .about-wrap{
+    display:grid !important;
+    grid-template-columns:minmax(190px, 0.28fr) minmax(0, 1fr) !important;
+    column-gap:52px !important;
+    align-items:start !important;
+  }
+  #about > .about-wrap > .section-head{
+    grid-column:1 !important;
+    grid-row:1 / span 20 !important;
+    position:sticky !important;
+    top:96px !important;
+    margin-bottom:0 !important;
+    padding-left:0 !important;
+    padding-top:14px !important;
+    border-left:0 !important;
+    border-top:3px solid var(--brass) !important;
+  }
+  #about .about-content{
+    grid-column:2 !important;
+    width:100% !important;
+    min-width:0 !important;
+  }
+  #about .about-subsection{
+    width:100% !important;
+    margin:64px 0 0 0 !important;
+    padding:52px 0 0 0 !important;
+    border-top:1px solid var(--line) !important;
+  }
+  #about .about-subsection > .section-head{
+    position:relative !important;
+    top:auto !important;
+    display:block !important;
+    grid-column:auto !important;
+    grid-row:auto !important;
+    margin:0 0 36px 0 !important;
+    padding-left:22px !important;
+    padding-top:0 !important;
+    border-top:0 !important;
+    border-left:3px solid var(--brass) !important;
+  }
+  #about .value-grid,
+  #about .edu-grid{
+    width:100% !important;
+    margin:0 !important;
+  }
+  @media (max-width:900px){
+    #about > .about-wrap{
+      display:block !important;
+    }
+    #about > .about-wrap > .section-head{
+      position:relative !important;
+      top:auto !important;
+      margin-bottom:36px !important;
+      padding-left:18px !important;
+      padding-top:0 !important;
+      border-top:0 !important;
+      border-left:3px solid var(--brass) !important;
+    }
+    #about .about-content{
+      width:100% !important;
+    }
+  }
+</style>
+
+
+<style>
+  .hero .title{
+    font-style:normal !important;
+    font-size:clamp(2rem, 4.2vw, 3.45rem) !important;
+    line-height:1.08 !important;
+    max-width:880px;
+  }
+  .hero .hero-opening{
+    margin-bottom:30px;
+  }
+  .hero .hero-sub{
+    font-size:1.03rem;
+    line-height:1.72;
+    max-width:760px;
+  }
+</style>
+
+
+<style>
+  .chapter-path{
+    position:relative;
+    display:grid;
+    gap:22px;
+  }
+  .chapter-path::before{
+    content:'';
+    position:absolute;
+    left:30px;
+    top:22px;
+    bottom:22px;
+    width:1px;
+    background:var(--line);
+  }
+  .chapter-card{
+    position:relative;
+    display:grid;
+    grid-template-columns:64px minmax(0,1fr);
+    gap:24px;
+    align-items:start;
+    background:var(--card);
+    border:1px solid var(--line);
+    padding:28px 30px 28px 0;
+  }
+  .chapter-marker{
+    position:relative;
+    z-index:2;
+    width:62px;
+    height:62px;
+    border-radius:50%;
+    background:var(--parchment);
+    border:2px solid var(--brass);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:var(--mono);
+    color:var(--brass);
+    font-size:0.82rem;
+    margin-left:0;
+  }
+  .chapter-years{
+    font-family:var(--mono);
+    color:var(--brass);
+    font-size:0.78rem;
+    letter-spacing:0.05em;
+    display:block;
+    margin-bottom:7px;
+  }
+  .chapter-card h3{
+    font-family:var(--display);
+    color:var(--forest);
+    font-size:1.35rem;
+    margin-bottom:8px;
+  }
+  .chapter-card p{
+    color:var(--slate);
+    font-size:0.94rem;
+    line-height:1.68;
+    max-width:780px;
+  }
+  .chapter-roles{
+    margin-top:14px;
+    padding-top:14px;
+    border-top:1px solid var(--line);
+    color:var(--ink);
+    font-size:0.88rem;
+    line-height:1.55;
+  }
+  .chapter-card:nth-child(even){
+    background:rgba(255,254,251,0.72);
+  }
+  @media (max-width:700px){
+    .chapter-card{
+      grid-template-columns:48px minmax(0,1fr);
+      gap:16px;
+      padding:22px 20px 22px 0;
+    }
+    .chapter-marker{
+      width:48px;
+      height:48px;
+      font-size:0.72rem;
+    }
+    .chapter-path::before{
+      left:23px;
+    }
+  }
+</style>
+
+
+<style>
+  /* Career Path heading alignment to match other major sections */
+  #pathway > .wrap{
+    display:grid !important;
+    grid-template-columns:minmax(190px, 0.28fr) minmax(0, 1fr) !important;
+    column-gap:52px !important;
+    align-items:start !important;
+  }
+  #pathway > .wrap > .section-head{
+    grid-column:1 !important;
+    grid-row:1 !important;
+    position:sticky !important;
+    top:96px !important;
+    margin:0 !important;
+    padding:14px 0 0 0 !important;
+    border-left:0 !important;
+    border-top:3px solid var(--brass) !important;
+  }
+  #pathway > .wrap > .chapter-path{
+    grid-column:2 !important;
+    grid-row:1 !important;
+    width:100% !important;
+    min-width:0 !important;
+  }
+  @media (max-width:900px){
+    #pathway > .wrap{
+      display:block !important;
+    }
+    #pathway > .wrap > .section-head{
+      position:relative !important;
+      top:auto !important;
+      margin-bottom:36px !important;
+      padding:0 0 0 18px !important;
+      border-top:0 !important;
+      border-left:3px solid var(--brass) !important;
+    }
+  }
+</style>
+
+
+<style>
+  .impact-story-grid{
+    display:grid;
+    grid-template-columns:repeat(2, minmax(0,1fr));
+    gap:22px;
+  }
+  .impact-story-card{
+    position:relative;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-top:3px solid var(--brass);
+    padding:28px 28px 24px;
+    min-height:320px;
+    display:flex;
+    flex-direction:column;
+  }
+  .impact-card-number{
+    font-family:var(--mono);
+    font-size:0.72rem;
+    letter-spacing:0.08em;
+    color:var(--brass);
+    margin-bottom:14px;
+  }
+  .impact-story-card h3{
+    font-family:var(--display);
+    color:var(--forest);
+    font-size:1.28rem;
+    line-height:1.25;
+    margin-bottom:13px;
+  }
+  .impact-story-card p{
+    color:var(--slate);
+    font-size:0.92rem;
+    line-height:1.68;
+    margin-bottom:24px;
+  }
+  .impact-proof{
+    margin-top:auto;
+    padding-top:18px;
+    border-top:1px solid var(--line);
+    display:grid;
+    grid-template-columns:auto 1fr;
+    gap:13px;
+    align-items:center;
+  }
+  .impact-proof strong{
+    font-family:var(--display);
+    font-size:1.7rem;
+    line-height:1;
+    color:var(--brass);
+  }
+  .impact-proof span{
+    color:var(--ink);
+    font-size:0.78rem;
+    line-height:1.4;
+  }
+  @media(max-width:800px){
+    .impact-story-grid{grid-template-columns:1fr}
+    .impact-story-card{min-height:auto}
+  }
+</style>
+
+<style>
+.case-study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.case-study-card{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--brass);padding:0;overflow:hidden}
+.case-study-top{padding:26px 28px 20px;border-bottom:1px solid var(--line)}
+.case-study-top h3{font-family:var(--display);color:var(--forest);font-size:1.3rem;line-height:1.28;margin-top:10px}
+.case-study-body{padding:8px 28px 24px}
+.case-study-step{padding:17px 0;border-bottom:1px solid var(--line)}
+.case-study-step:last-child{border-bottom:0;padding-bottom:0}
+.case-study-step strong{display:block;font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--brass);margin-bottom:7px}
+.case-study-step p{color:var(--slate);font-size:.88rem;line-height:1.62;margin:0}
+@media(max-width:850px){.case-study-grid{grid-template-columns:1fr}}
+</style>
+
+<style>
+.exp-context{
+  grid-column:1 / -1;
+  margin:10px 0 0;
+  color:var(--slate);
+  font-size:0.88rem;
+  line-height:1.55;
+  font-weight:400;
+  max-width:760px;
+}
+</style>
+
+
+
+<style>
+.asu-progression{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:28px;
+  padding:26px 30px 10px;
+  border-bottom:1px solid var(--line);
+}
+.asu-track-title{
+  font-family:var(--mono);
+  font-size:.75rem;
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--brass);
+  margin-bottom:8px;
+}
+.asu-track-note{
+  font-family:var(--body);
+  font-size:.78rem;
+  font-style:italic;
+  color:var(--slate);
+  min-height:22px;
+  margin-bottom:8px;
+}
+.asu-role-row{
+  display:grid;
+  grid-template-columns:104px minmax(0,1fr);
+  gap:12px;
+  padding:11px 0;
+  border-bottom:1px dotted var(--line);
+  color:var(--ink);
+  font-size:.88rem;
+  line-height:1.45;
+}
+.asu-role-row:last-child{border-bottom:0}
+.asu-role-years{
+  font-family:var(--mono);
+  font-size:.72rem;
+  color:var(--slate);
+  padding-top:2px;
+}
+.promotion-note{
+  display:block;
+  font-family:var(--mono);
+  font-size:.62rem;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:var(--brass);
+  margin-top:5px;
+}
+@media(max-width:800px){
+  .asu-progression{grid-template-columns:1fr;gap:34px;padding:24px 20px 10px}
+  .asu-role-row{grid-template-columns:92px minmax(0,1fr)}
+}
+</style>
+
+
+<style>
+.nav-name{
+  text-decoration:none;
+  cursor:pointer;
+}
+.nav-name:hover,
+.nav-name:focus{
+  opacity:.82;
+}
+html{
+  scroll-behavior:smooth;
+}
+</style>
+
+</head>
+<body>
+<div id="top"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="nav-mark"><a class="nav-name" href="#" aria-label="Return to homepage" onclick="window.scrollTo({top:0, behavior:'smooth'}); return false;">Carlyn Ludlow</a><span class="nav-degree">Ed.D.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About Me</a></li>
+<li><a href="#pathway">Career Path</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#curriculum">Program Innovation</a></li>
+      <li><a href="#scholarship">Thought Leadership</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#contact">Connect</a></li>
+      <li><a class="nav-cv" href="https://drive.google.com/file/d/1CwgxIHURwb75aT8X8jUAjEbGM2rBvlfB/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Curriculum Vitae</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-cover">
+    <div class="hero-opening">
+      <div class="eyebrow">Learning Strategy · Program Innovation · Organizational Growth</div>
+      <h1 class="title">Learning that expands access and creates change</h1>
+    </div>
+
+    <div class="hero-story">
+      <div class="hero-copy">
+        <p class="hero-sub">I help organizations turn ambitious ideas into effective programs, pathways, and learning experiences. For more than 20 years, I have led work across education, workforce development, and organizational strategy, with deep experience in adult learning, program design, compliance, accreditation, and continuous improvement.</p>
+
+        <p class="hero-sub">My work centers on creating systems and experiences that are responsive, accessible, and built to scale. I have led major program redesigns, guided complex initiatives through approval and accreditation processes, and developed new pathways that expand opportunity for learners and strengthen the organizations that serve them.</p>
+
+        <p class="hero-sub">I believe meaningful innovation is not about chasing what is new. It is about listening first, challenging assumptions, and creating solutions that work for the people they are meant to serve.</p>
+
+        <div class="hero-cta">
+          <a class="btn btn-solid" href="#about">Explore my work</a>
+          <a class="btn btn-brass" href="https://drive.google.com/file/d/1CwgxIHURwb75aT8X8jUAjEbGM2rBvlfB/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Curriculum Vitae</a>
+        </div>
+      </div>
+      <div class="seal"><div class="seal-initials">CL</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about-wrap">
+    <div class="section-head reveal">
+      <div class="kicker">About Me</div>
+      <h2>A Career Grounded in Impact</h2>
+    </div>
+
+    <div class="about-content">
+      <div class="about-layout reveal">
+        <div class="about-story">
+<p>I have built my career around the belief that leadership is about responsibility, responsiveness, and service. For more than 20 years, I have worked across education, professional learning, workforce development, and organizational strategy, helping organizations turn complex ideas into thoughtful, practical solutions that better support the people they serve.</p>
+
+<p>My work has focused on adult learning, strategic design, compliance and approval, continuous improvement, and expanding access in ways that improve outcomes. I am especially motivated by opportunities to remove barriers, strengthen systems, and turn complex ideas into practical change.</p>
+
+<p>Throughout my career, I have led work that moves from strategy through implementation. That has included redesigning large program portfolios, developing new degrees, certificates, and specialized pathways, expanding online access, supporting faculty and program leaders, navigating complex approval and accreditation processes, and building partnerships that connect learning to broader community and workforce needs.</p>
+</div>
+
+        <aside class="about-side">
+          <div class="about-block">
+            <h3>What I Bring</h3>
+            <ul class="about-list">
+              <li>Strategic learning design</li>
+              <li>Cross-sector partnership building</li>
+              <li>Program development at scale</li>
+              <li>A collaborative, learner-centered approach</li>
+              <li>A focus on clarity, relevance, and measurable impact</li>
+            </ul>
+          </div>
+
+          <div class="about-block"><h3>How I Approach the Work</h3><p>I am drawn to challenges that require thoughtful strategy, strong collaboration, and practical execution. I believe good design can make complex systems work better, create new possibilities, and lead to meaningful outcomes for people and organizations.</p></div>
+        </aside>
+      </div>
+
+      <div class="about-subsection">
+        <div class="section-head reveal">
+          <div class="kicker">Core Strengths</div>
+          <h2>Where I Bring the Most Value</h2>
+          <p class="section-intro">My strengths combine strategy, design, implementation, partnership building, and continuous improvement.</p>
+        </div>
+        <div class="value-grid reveal">
+<div class="value-card">
+        <h3>Learning Strategy &amp; Design</h3>
+        <p>Translating learner, workforce, and organizational needs into relevant learning experiences across in-person, virtual, hybrid, and online environments.</p>
+      </div>
+<div class="value-card">
+        <h3>Program Development &amp; Innovation</h3>
+        <p>Taking complex ideas from early concept through design, approval, implementation, scale, and refinement.</p>
+      </div>
+<div class="value-card">
+        <h3>Workforce &amp; Pathway Strategy</h3>
+        <p>Building flexible, accessible pathways that connect learning to career mobility, workforce needs, and changing learner expectations.</p>
+      </div>
+<div class="value-card">
+        <h3>Strategic Partnerships</h3>
+        <p>Bringing institutions, school systems, government agencies, nonprofits, and workforce partners together around shared goals and practical solutions.</p>
+      </div>
+<div class="value-card">
+        <h3>Continuous Improvement &amp; Scale</h3>
+        <p>Using data, feedback, assessment, and implementation learning to strengthen programs, improve outcomes, and scale what works.</p>
+      </div>
+<div class="value-card">
+        <h3>Accreditation, Regulatory Approval &amp; Compliance</h3>
+        <p>Leading complex approval, accreditation, licensure, compliance, and reporting work across institutional, state, federal, and accreditor requirements while keeping program quality and implementation at the center.</p>
+      </div>
+</div>
+      </div>
+
+      <div class="about-subsection">
+        <div class="section-head reveal">
+          <div class="kicker">Education</div>
+          <h2>Academic Foundation</h2>
+        </div>
+        <div class="edu-grid reveal">
+<div class="edu-item"><div class="edu-degree">Ed.D., Education Leadership, Administration &amp; Policy</div><div class="edu-school">Pepperdine University — Malibu, CA, July 2010</div></div>
+<div class="edu-item"><div class="edu-degree">M.A. Ed., Curriculum &amp; Instruction</div><div class="edu-school">Chapman University — Orange, CA, November 1999</div></div>
+<div class="edu-item"><div class="edu-degree">B.A., Communications &amp; Political Science</div><div class="edu-school">University of Arizona — Tucson, AZ, May 1996</div></div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="pathway">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">Career Path</div>
+      <h2>A Career of Expanding Scope and Impact</h2>
+      <p class="section-intro">My career has grown from teaching and curriculum design into program innovation, organizational leadership, and complex change at scale.</p>
+    </div>
+
+    <div class="chapter-path reveal">
+      <article class="chapter-card">
+        <div class="chapter-marker">01</div>
+        <div class="chapter-content">
+          <span class="chapter-years">2002–2010</span>
+          <h3>Teach &amp; Design</h3>
+          <p>Built a foundation in adult learning, faculty development, curriculum design, instructional quality, and professional learning through higher education teaching, program leadership, and curriculum design and professional development consulting.</p>
+        </div>
+      </article>
+
+      <article class="chapter-card">
+        <div class="chapter-marker">02</div>
+        <div class="chapter-content">
+          <span class="chapter-years">2011–2015</span>
+          <h3>Build &amp; Lead</h3>
+          <p>Expanded into academic administration, doctoral-level teaching, accreditation work, faculty leadership, state approvals, and new program development through roles as an associate professor, assistant dean, and post-doctoral guest professor.</p>
+        </div>
+      </article>
+
+      <article class="chapter-card">
+        <div class="chapter-marker">03</div>
+        <div class="chapter-content">
+          <span class="chapter-years">2015–2022</span>
+          <h3>Transform &amp; Scale</h3>
+          <p>Joined Arizona State University and progressed through faculty advancement from Instructor to Clinical Associate Professor while moving from project coordination into program strategy and senior program leadership. During this period, I led student success initiatives, lower-division transformation, certificates, specialized pathways, and undergraduate program redesign.</p>
+        </div>
+      </article>
+
+      <article class="chapter-card">
+        <div class="chapter-marker">04</div>
+        <div class="chapter-content">
+          <span class="chapter-years">2022–Present</span>
+          <h3>Lead Complex Change</h3>
+          <p>Led a large undergraduate portfolio as Associate Director of Undergraduate Programs while advancing to Clinical Professor. The work spanned reduced-credit degrees, online program expansion, workforce pathways, clinical experience redesign, strategic partnerships, regulatory approvals, and implementation at scale.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="impact">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">At the ASU Mary Lou Fulton College</div>
+      <h2>Building Systems, Pathways &amp; Programs at Scale</h2>
+    </div>
+
+    <div class="impact-story-grid reveal">
+      <article class="impact-story-card">
+        <div class="impact-card-number">01</div>
+        <h3>Redesigned an Undergraduate Program Portfolio</h3>
+        <p>Led the redesign, implementation, and continuous refinement of undergraduate programs, including new program maps, common assessments, progression indicators, policy changes, and expanded professional experiences.</p>
+        <div class="impact-proof"><strong>11</strong><span>undergraduate programs redesigned</span></div>
+      </article>
+
+      <article class="impact-story-card">
+        <div class="impact-card-number">02</div>
+        <h3>Created Flexible Pathways for Different Learners</h3>
+        <p>Developed new degrees, certificates, specialized pathways, and interest areas that give learners more flexible and personally meaningful ways to reach academic and professional goals.</p>
+        <div class="impact-proof"><strong>25+</strong><span>certificates, pathways, and academic offerings developed</span></div>
+      </article>
+
+      <article class="impact-story-card">
+        <div class="impact-card-number">03</div>
+        <h3>Built a Job-Embedded Workforce Pathway</h3>
+        <p>Conceived and led the development of ASU Teaching Fellows, a flexible, accelerated pathway designed around the realities of working paraprofessionals and built to address educator workforce needs.</p>
+        <div class="impact-proof"><strong>250+</strong><span>new teachers prepared through the pathway</span></div>
+      </article>
+
+      <article class="impact-story-card">
+        <div class="impact-card-number">04</div>
+        <h3>Turned Field Experience Into a Coherent Learning System</h3>
+        <p>Led the shift from disconnected upper-division internships to clinically embedded coursework, coordinating curriculum design, major-map revisions, approvals, faculty preparation, advising, and clinical experience operations.</p>
+        <div class="impact-proof"><strong>9</strong><span>cross-college major maps revised as part of implementation</span></div>
+      </article>
+
+      <article class="impact-story-card">
+        <div class="impact-card-number">05</div>
+        <h3>Navigated Complex Approval &amp; Regulatory Systems</h3>
+        <p>Led complex approval work across institutional, state, and accreditation processes, translating ambitious program ideas into approved, implementable pathways while coordinating academic, regulatory, and operational requirements.</p>
+        <div class="impact-proof"><strong>27</strong><span>educator preparation programs and certification areas advanced through state approval</span></div>
+      </article>
+
+      <article class="impact-story-card">
+        <div class="impact-card-number">06</div>
+        <h3>Redesigned Systems That Support People</h3>
+        <p>Co-led a comprehensive analysis of faculty workload and enrollment trends, developed a new credit-hour workload model, secured executive approval, and helped implement a more consistent system without negative instructional budget implications.</p>
+        <div class="impact-proof"><strong>90+</strong><span>faculty and academic leaders supported across the portfolio</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="selected-work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">Selected Work</div>
+      <h2>From Complex Challenges to Practical Solutions</h2>
+      <p class="section-intro">Four examples that show how I frame complex challenges, build the right approach, and move work toward meaningful results.</p>
+    </div>
+
+    <div class="case-study-grid reveal">
+      <article class="case-study-card">
+        <div class="case-study-top">
+          <span class="work-label">Workforce Pathways</span>
+          <h3>Creating a New Model for Working Adult Learners</h3>
+        </div>
+        <div class="case-study-body">
+          <div class="case-study-step"><strong>The Challenge</strong><p>Working paraprofessionals needed a realistic route to a degree and teacher certification without stepping away from their jobs or navigating a traditional program structure that did not fit their lives.</p></div>
+          <div class="case-study-step"><strong>The Approach</strong><p>Designed a flexible, accelerated, job-embedded pathway around adult learners, combining a distinctive course structure, cohort support, school-based learning, and coordinated academic and operational systems.</p></div>
+          <div class="case-study-step"><strong>The Result</strong><p>ASU Teaching Fellows launched with five cohorts and has prepared more than 250 new teachers while creating a scalable workforce pathway for school employees.</p></div>
+        </div>
+      </article>
+
+      <article class="case-study-card">
+        <div class="case-study-top">
+          <span class="work-label">Program Transformation</span>
+          <h3>Reimagining the Undergraduate Experience</h3>
+        </div>
+        <div class="case-study-body">
+          <div class="case-study-step"><strong>The Challenge</strong><p>A complex undergraduate portfolio needed greater coherence, stronger student support, more flexible options, and clearer connections between coursework, professional experiences, and learner goals.</p></div>
+          <div class="case-study-step"><strong>The Approach</strong><p>Led interconnected redesign work across programs, lower-division experiences, major maps, assessments, progression indicators, policies, certificates, and specialized pathways, coordinating academic and support units through implementation.</p></div>
+          <div class="case-study-step"><strong>The Result</strong><p>The work created a more coherent and flexible undergraduate experience, expanded student choice, and established structures for ongoing improvement across a portfolio serving more than 2,000 learners.</p></div>
+        </div>
+      </article>
+
+      <article class="case-study-card">
+        <div class="case-study-top">
+          <span class="work-label">Degree Innovation &amp; Approval</span>
+          <h3>Turning a New Degree Concept Into an Approved Program</h3>
+        </div>
+        <div class="case-study-body">
+          <div class="case-study-step"><strong>The Challenge</strong><p>Reducing time and cost to degree required more than curriculum revision. The concept had to preserve quality, address licensure requirements, navigate multiple approval systems, and be translated into an implementable student experience.</p></div>
+          <div class="case-study-step"><strong>The Approach</strong><p>Led design and cross-functional planning for 90-credit bachelor's degree pathways, aligning academic requirements, regulatory considerations, institutional approvals, accreditation, advising, disclosures, and implementation planning.</p></div>
+          <div class="case-study-step"><strong>The Result</strong><p>The initiative advanced through major institutional and external approval milestones, creating a new model for faster degree completion while maintaining academic and workforce relevance.</p></div>
+        </div>
+      </article>
+
+      <article class="case-study-card">
+        <div class="case-study-top">
+          <span class="work-label">Experiential Learning &amp; Change</span>
+          <h3>Redesigning Clinical Experience at Scale</h3>
+        </div>
+        <div class="case-study-body">
+          <div class="case-study-step"><strong>The Challenge</strong><p>Professional experiences were distributed across separate internships and systems, creating an opportunity to build a more coherent connection between coursework, practice, mentoring, and program outcomes.</p></div>
+          <div class="case-study-step"><strong>The Approach</strong><p>Led a multi-year shift to clinically embedded coursework, coordinating curriculum design, major-map changes, approvals, faculty preparation, advising, clinical operations, mentoring models, and district partnerships.</p></div>
+          <div class="case-study-step"><strong>The Result</strong><p>The redesigned system connects learning and practice across the program and includes new mentoring structures and a formal School-University Network supporting quality placements and stronger partnerships.</p></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head reveal"><div class="kicker">Professional Experience</div><h2>Career Roles &amp; Leadership Scope</h2></div>
+
+    <details class="exp-card reveal asu-career-card"><summary><div class="exp-head"><div class="exp-role">Clinical Professor / Academic Leader</div><div class="exp-years">08/15 – Present</div><div class="exp-org">Mary Lou Fulton College for Teaching &amp; Learning Innovation, Arizona State University</div></div></summary>
+      <div class="asu-progression">
+        <div class="asu-track">
+          <div class="asu-track-title">Faculty Rank</div>
+          <div class="asu-track-note">Each rank earned through promotion</div>
+
+          <div class="asu-role-row">
+            <span class="asu-role-years">2025–Present</span>
+            <div><strong>Clinical Professor</strong></div>
+          </div>
+          <div class="asu-role-row">
+            <span class="asu-role-years">2021–2025</span>
+            <div>Clinical Associate Professor</div>
+          </div>
+          <div class="asu-role-row">
+            <span class="asu-role-years">2017–2021</span>
+            <div>Clinical Assistant Professor</div>
+          </div>
+          <div class="asu-role-row">
+            <span class="asu-role-years">2015–2017</span>
+            <div>Instructor</div>
+          </div>
+        </div>
+
+        <div class="asu-track">
+          <div class="asu-track-title">Administrative Leadership</div>
+          <div class="asu-track-note">Fixed-term appointments</div>
+
+          <div class="asu-role-row">
+            <span class="asu-role-years">2022–2026</span>
+            <div><strong>Associate Director of Undergraduate Programs</strong></div>
+          </div>
+          <div class="asu-role-row">
+            <span class="asu-role-years">2020–2022</span>
+            <div>Senior Program Strategist of Undergraduate Programs</div>
+          </div>
+          <div class="asu-role-row">
+            <span class="asu-role-years">2018–2020</span>
+            <div>Program Strategist</div>
+          </div>
+          <div class="asu-role-row">
+            <span class="asu-role-years">2015–2018</span>
+            <div>Coordinator, LEAD Project and Collegiate Scholars Academy</div>
+          </div>
+        </div>
+      </div>
+      <ul class="exp-list">
+        <li>Provide strategic leadership for a complex portfolio of educator preparation, professional learning, and workforce development initiatives serving more than 2,000 students and coordinating the work of 80–90 faculty and academic leaders across in-person, virtual, hybrid, and online environments.</li>
+        <li>Lead cross-functional program development and continuous improvement initiatives spanning learning design, curriculum, faculty development, assessment, student success, and workforce partnerships while concurrently managing 8+ major strategic projects and initiatives.</li>
+        <li>Design and expand innovative learning experiences and academic pathways, leading the creation or redesign of 11 undergraduate programs, the complete lower-division experience, and 25+ certificates, specialized pathways, and academic offerings responsive to evolving learner and workforce needs.</li>
+        <li>Lead the vision, design, approval, and implementation of innovative program models, including ASU's first 90-credit bachelor's degrees, reducing degree requirements by 30 credits and one year of study, as well as digital immersion and job-embedded pathways that expand access and accelerate entry into the educator workforce.</li>
+        <li>Led program design and implementation for the ASU Teaching Fellows, a job-embedded pathway that grew from launch to preparing and graduating more than 250 new teachers.</li>
+        <li>Led the development and launch of online educator preparation pathways that expanded access to new learner populations and contributed approximately 300 additional students to the Elementary Education program.</li>
+        <li>Oversee program planning, approval, regulatory compliance, performance reporting, assessment, and continuous improvement for a portfolio of 27 educator preparation programs and certification areas, ensuring alignment with institutional, state, federal, accreditation, and licensure requirements.</li>
+        <li>Design and lead professional learning, leadership development, faculty onboarding, curriculum, and assessment experiences reaching approximately 300 faculty, staff, educators, and academic leaders; personally mentored 13 faculty members and emerging academic leaders in new teaching and leadership roles.</li>
+        <li>Design and deliver more than 20 virtual, hybrid, and online learning experiences, including courses, workshops, professional learning programs, and synchronous learning experiences, while maintaining an average instructor evaluation of 3.84 out of 4.0.</li>
+        <li>Build and sustain strategic partnerships with school systems, government agencies, nonprofit organizations, workforce partners, and international collaborators, serving as a lead or significant contributor to more than 20 partnerships that expanded educator pipelines, professional learning, field experiences, and workforce opportunities.</li>
+        <li>Co-plan and deliver conference programming, professional learning series, and more than five multi-stakeholder convenings, bringing together faculty experts, education leaders, practitioners, and partners to advance learning, collaboration, and innovation.</li>
+        <li>Co-led the design and implementation of a comprehensive, data-informed assessment and continuous improvement system, using performance metrics and learner outcomes to strengthen program effectiveness, certification readiness, strategic planning, and decision-making; contributed to initiatives that increased first-year retention above 90%, with some cohorts reaching 96%.</li>
+        <li>Support financial and operational planning through division operating budget activities, grant proposal development and budget tracking, faculty and subject matter expert compensation planning, vendor contracting, and development of RFPs, MOUs, contracts, and individual consulting agreements.</li>
+        <li>Explore and integrate emerging technologies and new learning models into curriculum and program development, including digital learning, online program expansion, AI and agentic technologies, and innovative approaches to learner engagement and instructional planning.</li>
+      </ul>
+    </details><details class="exp-card reveal"><summary><div class="exp-head"><div class="exp-role">Assistant Dean / Associate Professor</div><div class="exp-years">01/11 – 07/15</div><div class="exp-org">College of Education, Grand Canyon University — Phoenix, AZ</div></div></summary>
+      <ul class="exp-list">
+        <li>Led College of Education faculty and academic leaders while overseeing educator preparation operations, regulatory compliance, state program approvals, and coordination with university and state agencies.</li>
+        <li>Chaired national accreditation efforts that resulted in recognition for eight educator preparation programs and successfully led Arizona State Board of Education approval processes for multiple academic programs.</li>
+        <li>Designed and co-developed nine educator preparation programs and coordinated cross-functional implementation to ensure quality, compliance, and operational readiness.</li>
+        <li>Established certification policies, faculty training, observation protocols, and student performance systems that strengthened regulatory alignment, instructional quality, and program consistency.</li>
+        <li>Built strategic partnerships with public schools, charter schools, private schools, and community organizations to expand educator pipelines, professional development opportunities, and graduate cohort programs.</li>
+      </ul>
+    </details><details class="exp-card reveal"><summary><div class="exp-head"><div class="exp-role">Guest Professor</div><div class="exp-years">06/11 – 05/12</div><div class="exp-org">Graduate School of Education and Psychology, Pepperdine University — Malibu, CA</div></div></summary>
+      <ul class="exp-list">
+        <li>Selected as Guest Professor in the doctoral program in Educational Leadership, Administration, and Policy, delivering instruction in scholarly writing, communication, educational technology, and leadership development for aspiring educational leaders.</li>
+      </ul>
+    </details><details class="exp-card reveal"><summary><div class="exp-head"><div class="exp-role">Founder / Chief Consultant</div><div class="exp-years">01/03 – 01/11</div><div class="exp-org">Pedagogia Educational Consulting — Cave Creek, AZ</div></div></summary>
+      <ul class="exp-list">
+        <li>Founded and led a consulting firm delivering strategic learning, workforce development, and organizational performance solutions for education, corporate, and government clients.</li>
+        <li>Partnered with more than 35 organizations, including Fortune 1000 companies, school systems, and state agencies, to design and implement workforce-aligned training and talent development initiatives.</li>
+        <li>Designed and developed over 120 professional learning modules and large-scale curriculum solutions focused on leadership, communication, project management, and workforce readiness.</li>
+        <li>Directed end-to-end consulting engagements, conducting needs assessments, managing complex projects, and using data-driven strategies to improve organizational performance and learning outcomes.</li>
+        <li>Collaborated with the Arizona Department of Education to develop and implement statewide educator workforce initiatives, including alternative certification pathways and transition-to-teaching programs serving prospective and intern teachers.</li>
+        <li>Led and supported grant-funded initiatives with state agencies and higher education partners, including multi-district recruitment, preparation, and support programs that strengthened educator pipelines across Arizona.</li>
+      </ul>
+    </details><details class="exp-card reveal"><summary><div class="exp-head"><div class="exp-role">Program Chair / Lead Faculty</div><div class="exp-years">07/02 – 12/10</div><div class="exp-org">College of Education, University of Phoenix</div></div></summary>
+      <ul class="exp-list">
+        <li>Served as one of six lead faculty members for the College of Education, providing program-level leadership across curriculum, faculty operations, and instructional quality.</li>
+        <li>Recruited, onboarded, and supported the professional development of more than 40 faculty members annually, strengthening instructional consistency and organizational effectiveness.</li>
+        <li>Designed and implemented faculty mentoring and training systems, personally mentoring 23 new faculty to enhance onboarding, performance, and retention.</li>
+        <li>Served as lead subject matter expert and curriculum developer for new graduate programs in Adult Education and Training and Teacher Leadership.</li>
+        <li>Designed or co-designed 25 undergraduate and graduate courses for campus, hybrid, and online delivery, expanding high-quality learning opportunities across modalities.</li>
+        <li>Taught 102 undergraduate and graduate courses spanning 26 distinct subjects while earning exceptional student evaluations, including a 98.9% average overall rating and 98.7% recommendation rate.</li>
+      </ul>
+    </details><details class="exp-card reveal"><summary><div class="exp-head"><div class="exp-role">Teacher / Team Lead</div><div class="exp-years">08/98 – 01/03</div><div class="exp-org">Scottsdale School District — Scottsdale, AZ</div></div></summary>
+      <ul class="exp-list">
+        <li>Taught middle school social studies and history while implementing engaging, standards-aligned instruction to support student achievement.</li>
+        <li>Served as a teacher leader and mentor, supporting new educators and working with at-risk students to improve academic success and retention.</li>
+        <li>Led district curriculum initiatives by designing social studies curriculum, contributing to academic standards development, and strengthening scope, sequence, and instructional alignment.</li>
+        <li>Served as an evaluator for the Arizona Department of Education and participated in district textbook adoption committees, ensuring compliance, instructional quality, and effective implementation of educational resources.</li>
+      </ul>
+    </details>  </div>
+</section>
+
+<section id="recognition">
+  <div class="wrap">
+    <div class="section-head reveal"><div class="kicker">Professional Recognition</div><h2>Awards &amp; Honors</h2></div>
+    <div class="recognition-grid reveal">
+      <div class="rec-item"><span class="rec-year">2025</span><span class="rec-title">Vault Award, Mary Lou Fulton College for Teaching &amp; Learning Innovation, Arizona State University</span></div>
+      <div class="rec-item"><span class="rec-year">2023</span><span class="rec-title">Professor of Impact Award, Arizona State University</span></div>
+      <div class="rec-item"><span class="rec-year">2022</span><span class="rec-title">Featured faculty guest, Faculty Breakfast with the Arizona Board of Regents</span></div>
+      <div class="rec-item"><span class="rec-year">2021</span><span class="rec-title">Leadership Academy peerLA Cohort VIII Member (2020–2021), Arizona State University</span></div>
+      <div class="rec-item"><span class="rec-year">2020</span><span class="rec-title">Featured faculty guest, Faculty Breakfast with the Arizona Board of Regents</span></div>
+      <div class="rec-item"><span class="rec-year">2020</span><span class="rec-title">Student nominee, ASU Women's Coalition Badass Woman of ASU recognition</span></div>
+      <div class="rec-item"><span class="rec-year">2012</span><span class="rec-title">Distinguished Contribution Award, Grand Canyon University</span></div>
+      <div class="rec-item"><span class="rec-year">2010</span><span class="rec-title">International Global Faculty Advisory Council Member, University of Phoenix</span></div>
+      <div class="rec-item"><span class="rec-year">2009</span><span class="rec-title">Glen and Gloria Holden Graduate School of Education and Psychology Award for Academic Excellence, Pepperdine University</span></div>
+      <div class="rec-item"><span class="rec-year">2007 &amp; 2008</span><span class="rec-title">Faculty Member of the Year, University of Phoenix</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="curriculum">
+  <div class="wrap">
+    <div class="section-head reveal"><div class="kicker">Curriculum &amp; Instruction</div><h2>Program Design, Teaching &amp; Course Development</h2><p class="section-intro">Expand any section below for the complete record.</p></div>
+
+    <details class="acc reveal"><summary>Program Design &amp; Compliance Leadership <span class="acc-meta">ASU Mary Lou Fulton College</span></summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2025–2028</strong> Elected Member of Governance and Policy Standing Committee</li>
+        <li><strong>2025–2026</strong> Division for Advancing Educator Preparation Assessment Delegate for the University Office of Evaluation and Educational Effectiveness Assessment</li>
+        <li><strong>2025–2026</strong> Design, approval, and accreditation lead for Bachelor of Education, Bachelor of Education with a Concentration in Elementary Education, and Bachelor of Education with a Concentration in Special Education (ASU's first 90-credit bachelor's degree programs)</li>
+        <li><strong>2025</strong> Teacher Preparation Program Diversity Advisory Consultation, National Council on Teacher Quality (NCTQ)</li>
+        <li><strong>2024–2026</strong> Member of the Student Success Leadership Council, led by the Vice Provost for Undergraduate Education, Office of the University Provost</li>
+        <li><strong>2024–2026</strong> Co-lead, Strengthening Educator Pipelines and Retention Working Group</li>
+        <li><strong>2024–2026</strong> Program design, approval, and accreditation lead for digital immersion modality addition for Bachelor of Arts in Elementary Education and Bachelor of Arts in Special Education</li>
+        <li><strong>2024</strong> Co-author, Educator Recruitment and Retention Task Force Recommendation Report, Arizona Department of Education</li>
+        <li><strong>2024–2025</strong> Mary Lou Fulton Teachers College Lead, Reducing the Time-to-Value in Higher Education Through Reimagined Degree Pathways working group, sponsored by the Vice Provost for Academic Innovation and Student Achievement</li>
+        <li><strong>2024–2025</strong> Mary Lou Fulton Teachers College Lead, Stackable Freestanding Undergraduate Certificate Project, sponsored by the Vice Provost for Undergraduate Education</li>
+        <li><strong>2023</strong> Faculty advisory member, Arizona Board of Regents survey on K-12 Teacher Preparation</li>
+        <li><strong>2023–2025</strong> MLFC lead for new ASU general studies adoption</li>
+        <li><strong>2023–2024</strong> Competency development and technical instruction lead for Apprenticeship Arizona, application for registered apprenticeship approval</li>
+        <li><strong>2022–2025</strong> New professional experience model and clinically embedded course model — design, approval, and implementation lead</li>
+        <li><strong>2022–2026</strong> Arizona Department of Education Biennial Reports, undergraduate programs lead</li>
+        <li><strong>2022–2026</strong> Higher Education Act Title II Annual Report, undergraduate programs lead</li>
+        <li><strong>2022–2024</strong> Bachelor of Arts in Education, Middle Grades Education, program design, approval, and accreditation lead</li>
+        <li><strong>2022–2023</strong> ASU Teaching Fellows, Elementary Education BAE, program design, approval, and implementation lead</li>
+        <li><strong>2022–2023</strong> ASU Teaching Fellows, Special Education BAE, program design, approval, and implementation lead</li>
+        <li><strong>2021–2022</strong> Arizona State University's General Studies Faculty Advisory Committee Member, sponsored by the Provost and Vice Provost</li>
+        <li><strong>2021–2022</strong> Member, The Path Forward Arizona State Team, a multi-state initiative for The Path Forward in Teacher Preparation for Early Literacy, Arizona Department of Education</li>
+        <li><strong>2021</strong> Bachelor of Arts in Education, Special Education, program design, approval, accreditation lead</li>
+        <li><strong>2021</strong> Bachelor of Arts in Education, Early Childhood Education, program design, approval, accreditation lead</li>
+        <li><strong>2021</strong> Early Childhood Education Certificate, program design, approval, accreditation lead</li>
+        <li><strong>2021</strong> Early Childhood Special Education Certificate, program design, approval, accreditation lead</li>
+        <li><strong>2021</strong> Elementary Education Certificate, program design, approval, accreditation lead</li>
+        <li><strong>2021</strong> Mild/Moderate Special Education Certificate, program design, approval, accreditation lead</li>
+        <li><strong>2021</strong> Bilingual Education/English as a Second Language Certificate, program design, approval, accreditation lead</li>
+        <li><strong>2021</strong> Led the development of 18 undergraduate specialized interest areas</li>
+        <li><strong>2021</strong> Led Arizona State Board Approval for 27 undergraduate programs (six degrees and 21 secondary approved areas)</li>
+        <li><strong>2020</strong> Bachelor of Arts in Education, Physical Education, program design, approval, accreditation lead</li>
+      </ul></div>
+    </details>
+
+    <details class="acc reveal"><summary>Courses Taught <span class="acc-meta">by institution</span></summary>
+      <div class="acc-body">
+        <h3 class="sub-head">Arizona State University, Mary Lou Fulton College for Teaching &amp; Learning Innovation</h3>
+        <p class="section-intro" style="margin-bottom:14px;">Student evaluations, grand instructor mean of 3.84 out of 4.0</p>
+        <ul class="acc-list acc-cols">
+          <li>ASU Teaching Fellows Super Courses — four courses combined into a 16-credit integrated block (program oversight and guest teaching for eight cohorts)</li>
+          <li>BLE 220: Foundations of Structured English Immersion (seven sections)</li>
+          <li>ELL 504: Instructional Design — Culturally &amp; Linguistically Diverse Students</li>
+          <li>TEL 102: Professional Educator Series: Community Contexts (four sections)</li>
+          <li>TEL 111: Exploration of Education (14 sections)</li>
+          <li>TEL 171: Professional Educator Series: Equity in Education (15 sections)</li>
+          <li>TEL 194: Special Topics</li>
+          <li>TEL 201: The Teachers College Experience II</li>
+          <li>TEL 212: Understanding the Culturally Diverse Learner (two sections)</li>
+          <li>TEL 294: Special Topics</li>
+          <li>TEL 394: Global Education Study Abroad — Building Better Classrooms: Teamwork and Innovation in Dutch Schools</li>
+          <li>TEL 470: Professional Educator Series: Career Growth and Planning</li>
+        </ul>
+        <h3 class="sub-head">Grand Canyon University, College of Education</h3>
+        <p class="section-intro" style="margin-bottom:14px;">Student end-of-course survey, instructor level cumulative average: 4.87 out of 5</p>
+        <ul class="acc-list acc-cols">
+          <li>EDU 230: Cultural Diversity (14 sections)</li>
+          <li>EDU 450: Classroom Management and Engagement (four sections)</li>
+          <li>EED 480A and EED 480B: Student Teaching in Elementary Education (three sections)</li>
+          <li>SED 455: Secondary Curriculum and Assessment (two sections)</li>
+          <li>SED 480A and SED 480B: Student Teaching in Secondary Education (two sections)</li>
+        </ul>
+        <h3 class="sub-head">Pepperdine University, Graduate School of Education and Psychology</h3>
+        <p class="section-intro" style="margin-bottom:14px;">Student end-of-course survey: 4.9 out of 5</p>
+        <ul class="acc-list acc-cols">
+          <li>EDEL 729A and B: Communication / Information Technology / Scholarly Writing</li>
+          <li>EDEL 740 A and B: Personal Leadership and Legacy (two sections)</li>
+        </ul>
+        <h3 class="sub-head">University of Phoenix, College of Education</h3>
+        <p class="section-intro" style="margin-bottom:14px;">Student end-of-course survey, instructor level cumulative average: 9.89 out of 10 — 102 courses taught, 2002–2010</p>
+        <ul class="acc-list acc-cols">
+          <li>Action Research for Teachers — M.A.Ed. Elementary and Secondary Education</li>
+          <li>Applications of Action Research — M.A.Ed. Curriculum and Instruction</li>
+          <li>Assessment and Evaluation in Adult Learning — M.A.Ed. Adult Education and Training</li>
+          <li>Assessment in Elementary Education — M.A.Ed. Elementary Education</li>
+          <li>Child and Adolescent Development — M.A.Ed. Elementary and Secondary Education</li>
+          <li>Curriculum Constructs and Assessment: History and Social Science — M.A.Ed. Secondary Education</li>
+          <li>Curriculum Constructs and Assessment: Secondary Methods — M.A.Ed. Secondary Education</li>
+          <li>Elementary Student Teaching — M.A.Ed. Elementary Education</li>
+          <li>Evaluation and Assessment of Curriculum — M.A.Ed. Curriculum and Instruction</li>
+          <li>Foundations of Adult Education — M.A.Ed. Adult Education and Training</li>
+          <li>Foundations of Curriculum and Instruction — M.A.Ed. Curriculum and Instruction</li>
+          <li>Instructional Design — M.A.Ed. Adult Education and Training / Curriculum and Instruction</li>
+          <li>Instructional Strategies in Adult Education and Training — M.A.Ed. Adult Education and Training</li>
+          <li>Introduction to Action Research — M.A.Ed. Curriculum and Instruction</li>
+          <li>Maintaining an Effective Learning Climate — M.A.Ed. Elementary and Secondary Education</li>
+          <li>Measurement, Evaluation, and Ethics in Research — M.A.Ed. Curriculum and Instruction</li>
+          <li>Models, Theories, and Instructional Strategies — M.A.Ed. Elementary and Secondary Education</li>
+          <li>Orientation to Teacher Education — M.A.Ed. Elementary and Secondary Education</li>
+          <li>Overview of the Community College — M.A.Ed. Adult Education and Training</li>
+          <li>Secondary Student Teaching — M.A.Ed. Secondary Education</li>
+          <li>Standards-Based Curriculum and Instruction — M.A.Ed. Curriculum and Instruction</li>
+          <li>The Art and Science of Teaching — M.A.Ed. Elementary and Secondary Education</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="acc reveal"><summary>Courses Designed &amp; Developed <span class="acc-meta">by institution &amp; year</span></summary>
+      <div class="acc-body">
+        <h3 class="sub-head">Arizona State University, Mary Lou Fulton College for Teaching &amp; Learning Innovation</h3>
+        <ul class="acc-list">
+          <li><strong>2022</strong> MGE 420: Integrating STEM into Middle School Practice — new course, peer collaborator and reviewer</li>
+          <li><strong>2022</strong> MGE 415: Integrated ELA and Social Studies Methods for Middle Grades — new course, peer collaborator and reviewer</li>
+          <li><strong>2020</strong> TEL 171: Professional Educator Series: Equity in Education — new course, led design and development</li>
+          <li><strong>2020</strong> TEL 270: Professional Educator Series: Connecting Theory to Practice — new course, peer collaborator and reviewer</li>
+          <li><strong>2020</strong> TEL 271: Professional Educator Series: Inclusivity in Practice — new course, led design and development</li>
+          <li><strong>2020</strong> TEL 212: Understanding the Multicultural Learner — revised course, led design revisions</li>
+          <li><strong>2020</strong> TEL 370: Professional Educator Series: Building a Professional Network — new course, peer collaborator and reviewer</li>
+          <li><strong>2020</strong> TEL 371: Professional Educator Series: Educational Policies — new course, peer collaborator and reviewer</li>
+          <li><strong>2020</strong> TEL 470: Professional Educator Series: Career Growth and Planning — new course, peer collaborator and reviewer</li>
+          <li><strong>2020</strong> TEL 471: Professional Educator Series: The Principled Educator — new course, peer collaborator and reviewer</li>
+          <li><strong>2018–2019</strong> TEL 102: Professional Educator Series: Community Contexts — new course, peer collaborator and reviewer</li>
+          <li><strong>2018–2019</strong> TEL 111: Exploration of Education — revised course, led design revisions</li>
+          <li><strong>2018–2019</strong> TEL 203: Collaborating, Planning, and Implementing Instruction in Diverse Contexts — new course, peer collaborator and reviewer</li>
+          <li><strong>2017</strong> TEL 201: Teachers College Experience II — new course, led design and development</li>
+          <li><strong>2017</strong> TEL 202: Professional Educator Series: My Impact — new course, led design and development</li>
+          <li><strong>2016</strong> TEL 294: Special Topics in Education — LEAD Project — new special topics course, led design and development revisions</li>
+        </ul>
+        <h3 class="sub-head">Grand Canyon University, College of Education</h3>
+        <ul class="acc-list">
+          <li><strong>2014</strong> ELM 500: Child and Early Adolescent Development and Psychology — new course, peer collaborator</li>
+          <li><strong>2014</strong> ELM 510: Creating and Managing Engaging Learning Environments — new course, led design and development</li>
+          <li><strong>2014</strong> ELM 520: Instructional Planning for Elementary Teacher Candidates — new course, co-led design and development</li>
+          <li><strong>2014</strong> ELM 530: Assessment and Evaluation for Elementary Teacher Candidates — new course, peer collaborator</li>
+          <li><strong>2014</strong> ELM 550: Methods &amp; Strategies of Teaching &amp; Integrating Social Studies &amp; the Arts — new course, co-led design and development</li>
+          <li><strong>2013</strong> EDU 525: Foundations in Elementary Education — revised course, led design revisions</li>
+          <li><strong>2013</strong> EDU 576: Philosophical and Social Issues in Education — revised course, peer collaborator</li>
+          <li><strong>2013</strong> SED 455: Secondary Curriculum and Assessment — revised course, led design revisions</li>
+          <li><strong>2012</strong> EDU 230: Cultural Diversity — revised course, led design revisions</li>
+          <li><strong>2012</strong> EDU 450: Classroom Management and Engagement — revised course, led design revisions</li>
+          <li><strong>2012</strong> EED 480A and EED 480B: Student Teaching in Elementary Education — revised course, led design revisions</li>
+          <li><strong>2012</strong> ELM 590: Student Teaching for Elementary Teacher Candidates; POS-500: U.S. and Arizona Constitutions for Teacher Candidates — revised courses, led design revisions</li>
+          <li><strong>2012</strong> SED 480A and SED 480B: Student Teaching in Secondary Education — revised course, led design revisions</li>
+        </ul>
+        <h3 class="sub-head">University of Phoenix, College of Education</h3>
+        <ul class="acc-list">
+          <li><strong>2009</strong> EDL 500: Personal Leadership — new course, led design and development</li>
+          <li><strong>2009</strong> EDL 510: Teacher Leadership in a Global Society — new course, led design and development</li>
+          <li><strong>2009</strong> EDL 515: Organizational Leadership — new course, led design and development</li>
+          <li><strong>2009</strong> EDL 520: Instructional Leadership — new course, led design and development</li>
+          <li><strong>2009</strong> EDL 525: Accountability and Evaluation — new course, led design and development</li>
+          <li><strong>2007–2008</strong> AED 200: Classroom Instruction — new course, peer collaborator</li>
+          <li><strong>2007–2008</strong> AED 515: Instructional Design — new course, led design and development</li>
+          <li><strong>2007–2008</strong> AET 505: Foundations of Adult Education — new course, led design and development</li>
+          <li><strong>2007–2008</strong> AET 520: Instructional Strategies in Adult Education and Training — new course, led design and development</li>
+          <li><strong>2007–2008</strong> AET 535: Assessment and Evaluation in Adult Learning — new course, led design and development</li>
+          <li><strong>2006</strong> EDA 518: Leadership and Collaborative Processes — revised course, co-led design and development</li>
+          <li><strong>2006</strong> EDD 581: Action Research and Evaluation — revised course, co-led design and development</li>
+          <li><strong>2006</strong> EED 400: Assessment in Elementary Education — new course, co-led design and development</li>
+          <li><strong>2006</strong> EDU 574: Assessment and Evaluation — revised course, co-led design and development</li>
+          <li><strong>2006</strong> MTE 531: Curriculum Constructs and Assessment: History and Social Science — revised course, led design revisions</li>
+          <li><strong>2006</strong> MTE 547: Curriculum Constructs and Assessment: Secondary History/Social Science — revised course, led design revisions</li>
+          <li><strong>2005</strong> CUR 524: Instructional Design — revised course, led design revisions</li>
+          <li><strong>2005</strong> CUR 558: Foundations of Curriculum and Instruction — revised course, led design revisions</li>
+          <li><strong>2005</strong> CUR 562: Standards-Based Curriculum and Instruction — revised course, led design revisions</li>
+          <li><strong>2005</strong> CUR 578: Evaluation and Assessment of Curriculum — revised course, led design revisions</li>
+          <li><strong>2005</strong> MED 506: Methods of Teaching Elementary Mathematics — revised course, peer collaborator</li>
+          <li><strong>2004</strong> ECH 506: Introduction to Early Childhood Education — revised course, peer collaborator</li>
+          <li><strong>2004</strong> ECH 556: Early Childhood Student Teaching: Part A and B — revised course, peer collaborator</li>
+          <li><strong>2004</strong> EDU 301: Foundations of Education — new course, led design and development</li>
+          <li><strong>2004</strong> MTE 501: The Art and Science of Teaching — revised course, led design revisions</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="acc reveal"><summary>Consulting Clients &amp; Organizations Served <span class="acc-meta">Pedagogia Education Consulting</span></summary>
+      <div class="acc-body"><ul class="acc-list acc-cols plain">
+        <li>APS, Phoenix, AZ</li><li>Arizona Dept of Education, Phoenix, AZ</li><li>Arizona Dept of Health Services, Phoenix, AZ</li><li>Arizona Nutrition Network, Phoenix, AZ</li><li>Arizona Youth Partnership, Lake Havasu, AZ</li><li>Boeing Company, Mesa, AZ</li><li>Cartwright School District, Phoenix, AZ</li><li>Coalition for Successful Youth Development, Phoenix, AZ</li><li>Cox Communications, Phoenix, AZ</li><li>First International Bank, Gilbert, AZ</li><li>Frontline Responder</li><li>Honeywell International Inc, Phoenix, AZ</li><li>Insight Enterprises Inc, Tempe, AZ</li><li>Intel Corporation, Chandler, AZ</li><li>Leona Group L.L.C., Phoenix, AZ</li><li>Nouveau University, Phoenix, AZ</li><li>Precision High School, Phoenix, AZ</li><li>Rancho Solano Private Schools, Scottsdale, AZ</li><li>Rapid Organizational Impact Group, Tempe, AZ</li><li>Raytheon Company, Tucson, AZ</li><li>Tempe Chamber of Commerce, Tempe, AZ</li><li>Texas Instruments, Tucson, AZ</li><li>University of Nevada, Las Vegas, NV</li><li>Wellington Consulting Grp Ltd, Apache Junction, AZ</li>
+      </ul></div>
+    </details>
+  </div>
+</section>
+
+<section id="scholarship">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">Thought Leadership</div>
+      <h2>Thought Leadership &amp; Knowledge Sharing</h2>
+      <p class="section-intro">A national and international presenter on educator preparation, with invited engagements spanning Egypt, South Korea, Morocco, and the Netherlands.</p>
+    </div>
+
+    <h3 class="sub-head reveal">Publications</h3>
+    <details class="acc reveal">
+      <summary>Publications</summary>
+      <div class="acc-body"><ul class="acc-list plain pub-list">
+        <li><span class="pub-tag">Peer-Reviewed</span><span class="pub-title">Shaping Educator Preparation to Build a Stronger Education Workforce</span> — Pinkerton, T., Ludlow, C., Causadias, J. M. O., Oakes, W. P., Thompson, N. L., Villarruel, H., &amp; Basile, C. G. (2025). <em>Education Sciences, 15(6)</em>, 640.</li>
+        <li><span class="pub-tag">Peer-Reviewed</span><span class="pub-title">Alternative Certification Pathways: Filling a Gap?</span> — Ludlow, C. (2013). <em>Education and Urban Society, 45(4)</em>, 440-458.</li>
+        <li><span class="pub-tag">Non-Refereed</span><span class="pub-title">Mary Lou Fulton Teachers College at Arizona State University: Special Education with a Concentration in Visual Impairment</span> — Ludlow, C., &amp; Farrand, K. M. (2023). <em>Visual Impairment and Deafblind Education Quarterly, 68(3)</em>, 63-70.</li>
+        <li><span class="pub-tag">Book Review</span><span class="pub-title">Review of the book Teaching When the World Is on Fire</span> — Ludlow, C. &amp; Thompson, N. (2021). <em>Teachers College Record</em>.</li>
+        <li><span class="pub-tag">Research Brief</span><span class="pub-title">Analyzing Past Assessment Data</span> — Ludlow, C. (2025). Arizona Board of Regents Academic Program Review, MLFC, ASU.</li>
+        <li><span class="pub-tag">Research Brief</span><span class="pub-title">From "What If" to Action: Redesigning Teacher Preparation Through Learning Outcomes and Assessment Systems</span> — Ludlow, C. (2025). Arizona Board of Regents Academic Program Review, MLFC, ASU.</li>
+        <li><span class="pub-tag">Research Brief</span><span class="pub-title">Undergraduate and Graduate Student Satisfaction: The ASU Student Satisfaction Survey and MLFC End of Program Survey</span> — Oakes, W. P., Welker, M., Thompson, B.D., Ludlow, C., Palichuk, K. (2025). Arizona Board of Regents Academic Program Review, MLFC, ASU.</li>
+        <li><span class="pub-tag">Contributing Author</span><span class="pub-title">Principled Innovation in the Systems of Educator and Leader Preparation (2nd ed.)</span> — Mary Lou Fulton Teachers College (2019), Arizona State University.</li>
+        <li><span class="pub-tag">Report</span><span class="pub-title">Comparative Needs Assessment of Literacy and Reading Programs</span> — Ludlow, C. (2010). Report to University of Phoenix, College of Education.</li>
+        <li><span class="pub-tag">Report</span><span class="pub-title">National Comparisons of Curriculum and Instruction Educator Education Programs</span> — Ludlow, C. (2010). Report to University of Phoenix, College of Education.</li>
+        <li><span class="pub-tag">Report</span><span class="pub-title">Advocates for Learning</span> — Ludlow, C. (2010). Researcher and contributor to University of Phoenix's College of Education's Conceptual Framework.</li>
+        <li><span class="pub-tag">Report</span><span class="pub-title">Are Educated Parents a Predictor of Student Academic Achievement?</span> — Ludlow, C. (2009). Report to Carlsbad Unified School District.</li>
+        <li><span class="pub-tag">Report</span><span class="pub-title">Gap Analysis of Adult Mentors in Teacher Certification Programs</span> — Ludlow, C. (2009). Report presented to Pepperdine University's Graduate School of Education and Psychology.</li>
+        <li><span class="pub-tag">Report</span><span class="pub-title">Exploring Alternative School Funding</span> — Ludlow, C. (2009). Report presented to Superintendent in Residence in Las Virgenes Unified School District.</li>
+        <li><span class="pub-tag">Manuscript</span><span class="pub-title">Ethical Educational Leadership Case Study</span> — Ludlow, C. (2009). Unpublished manuscript for Rick Brandon and Partners' sequel to Organizational Savvy.</li>
+        <li><span class="pub-tag">Report</span><span class="pub-title">Analysis of Student Performance</span> — Ludlow, C. (2008). Report to the Office of Learning Assessment, University of Phoenix.</li>
+        <li><span class="pub-tag">Report</span><span class="pub-title">Feasibility and Marketability of Masters of Education in Adult Education and Training</span> — Ludlow, C. (2008). Report to University of Phoenix, College of Education.</li>
+        <li><span class="pub-tag">Report</span><span class="pub-title">Feasibility and Marketability of Masters of Education in Teacher Leadership</span> — Ludlow, C. (2007). Report to University of Phoenix, College of Education.</li>
+        <li><span class="pub-tag">Report</span><span class="pub-title">Needs Assessment: Cartwright School District Data-Driven Curriculum Plan</span> — Ludlow, C. (2006). Report to Cartwright School District School Board.</li>
+      </ul></div>
+    </details>
+
+    <h3 class="sub-head reveal">Presentations</h3>
+    <details class="acc reveal"><summary>International Presentations</summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2025, March</strong> Redesigning middle grades math teacher preparation — Brown, A., Miltenberger, K., &amp; Ludlow, C. Society for Information Technology &amp; Teacher Education International Conference, Orlando, FL</li>
+        <li><strong>2025, Jan 14</strong> Mary Lou Fulton Teachers College undergraduate teacher certification programs — Brown, A., Flesher, C., &amp; Ludlow, C. Seoul National University of Education Student Intersession, Tempe, AZ</li>
+        <li><strong>2025, January</strong> Redesigning middle grades math teacher preparation — Brown, A., Ludlow, C., &amp; Miltenberger, K. International Conference on Education, IAFOR, Honolulu, HI</li>
+        <li><strong>2024, Dec 14</strong> Linking theory to practice for effective teacher preparation — keynote address, Practical Education: Alternatives and Solutions, USAID Teacher Excellence Initiative, Cairo, Egypt</li>
+        <li><strong>2024, Oct 29</strong> Mary Lou Fulton Teachers College undergraduate teacher certification programs — Netherland's Katholiek Onderwijs Noord Oost Twente (KONOT) visit to ASU, Tempe, AZ</li>
+        <li><strong>2024, Apr 24</strong> Program design and accreditation — USAID Education the Future Program (Georgia), Tbilisi, Georgia and Tempe, AZ</li>
+        <li><strong>2024, Feb 8</strong> Mary Lou Fulton Teachers College teacher preparation pathways redesign — Brown, A., Frias, E. L., Ludlow, C. &amp; Oakes, W. P. Higher Education Partnership – Morocco: Faculty Residency, Tempe, AZ</li>
+        <li><strong>2024, Jan 22</strong> Mary Lou Fulton Teachers College undergraduate teacher certification programs — Ludlow, C. &amp; Brown, A. Seoul National University of Education Student Intersession, Tempe, AZ</li>
+        <li><strong>2024, January</strong> Redesigning teacher preparation programs — Brown, A., Ludlow, C. &amp; Johnston, C. International Conference on Education, IAFOR, Honolulu, HI</li>
+        <li><strong>2023, Oct 31</strong> Reimagining teacher preparation — ASU × SNUE Teacher Training Symposium, Seoul, South Korea</li>
+        <li><strong>2023, Oct 31</strong> MLFTC's digital-based education: innovation cases — Basile, C. &amp; Ludlow, C. ASU × SNUE Teacher Training Symposium, Seoul, South Korea</li>
+        <li><strong>2023, March</strong> Committing to Digital Equity and Transformation in Teacher Education: The EPP Pledge — Langran, E., Clausen, J., Brown, A., Ludlow, C., Dirkin, K. &amp; Weible, J. SITE International Conference, New Orleans, LA</li>
+        <li><strong>2023, Mar 30</strong> Teacher preparation's role in building the Next Education Workforce — Ludlow, C., &amp; Thompson, N. Saxion University visit to ASU, Tempe, AZ</li>
+        <li><strong>2022, Sep 15</strong> It's time for a new education workforce — Basile, C., Ludlow, C., &amp; Oakes, W. P. Saxion University, Enschede, Netherlands</li>
+        <li><strong>2022, Sep 14</strong> It's time for a new education workforce — Basile, C., Ludlow, C., &amp; Oakes, W. P. Saxion University, Deventer, Netherlands</li>
+        <li><strong>2021, Oct 25</strong> Principled Innovation enacted in teacher preparation curriculum — Ludlow, C., Conner, G., Oakes, W. P., Pinkerton, T., &amp; Thompson, N. L. Values and Principled Innovation Forum, Oujda, Morocco</li>
+        <li><strong>2021, Mar 10</strong> Journey in curriculum redesign — Spring 2021 Plenary Session, Higher Education Partnership–Morocco</li>
+        <li><strong>2021, Feb 17</strong> Formative assessments for reflective practice — MLFTC and U.S. Embassy Universal Design for Learning Webinar Series, Morocco</li>
+      </ul></div>
+    </details>
+
+    <details class="acc reveal"><summary>National Presentations</summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2025, June</strong> Creating responsive and accessible teacher preparation pathways — Frias, E., Oakes, W.P. &amp; Ludlow, C. NASDTEC 96th Annual Conference, Charlotte, NC</li>
+        <li><strong>2025, Feb 22</strong> Immersed in success: ASU's game-changing approach to clinical experiences — Lenzi, S., Ludlow, C., Mitchell, E., &amp; Villarruel, H. AACTE Conference, Long Beach, CA</li>
+        <li><strong>2025, February</strong> Prognosticating the future of teacher preparation with strategic school staffing models in mind — panel discussion, Next Education Workforce Summit 2025</li>
+        <li><strong>2024, November</strong> Innovative middle level teacher preparation — Brown, A., &amp; Ludlow, C. Association for Middle Level Education National Conference, Nashville, TN</li>
+        <li><strong>2024, Feb 16</strong> ASU Teaching Fellows: an innovative approach to undergraduate grow your own programs — AACTE Conference, Aurora/Denver, CO</li>
+        <li><strong>2024, Feb 16</strong> Shifting from preparing to sustaining a teacher workforce — Thompson, N. L., Pinkerton, T., Basile, C., Frias, E. L., Ludlow, C., Oakes, W. P., &amp; Villarruel, H. AACTE Conference, Aurora/Denver, CO</li>
+        <li><strong>2024, Feb 7</strong> Today's teacher preparation: breaking from tradition — Ludlow, C., Frias, E. L., &amp; Oakes, W. P. Strategic School Staffing Summit</li>
+        <li><strong>2023, Oct 25</strong> ASU Teaching Fellows: a paraeducator pathway to certification and degree — Ludlow, C. &amp; Holton, A. AAEE Conference, Chicago, IL</li>
+        <li><strong>2023, Feb 23</strong> Promoting character-building in pre-service teachers — Cultivating Academic Success preconference, AACTE, Indianapolis, IN</li>
+        <li><strong>2023, Feb 24</strong> Preparing teachers with distributed expertise — Ludlow, C., Thompson, N. L., &amp; Oakes, W. P., Basile, C. AACTE Conference, Indianapolis, IN</li>
+        <li><strong>2023, Feb 24</strong> A deeper dive: whose character, whose virtue, whose values? — Basile, C., Ludlow, C., Thompson, N. L., &amp; Oakes, W. P. AACTE Conference, Indianapolis, IN</li>
+        <li><strong>2023, Feb 8</strong> New ways to enter, specialize, and advance in the profession — Thompson, N. L., Ludlow, C., Katikos, A. Next Education Workforce Summit 2023</li>
+        <li><strong>2022, Oct 24</strong> Integrating the Principled Innovation framework and tools into teacher preparation curriculum — Thompson, N. &amp; Ludlow, C. Principled Innovation Annual Fall Convening, Phoenix, AZ</li>
+        <li><strong>2018</strong> Mentoring, coaching, and leading: Supporting our Students (SOS) system — Cocchiarella, M., Mitchell, E., Harris, P., Oliver, J., Ludlow, C. The Mentoring Institute's 11th Annual Mentoring Conference, Albuquerque, NM</li>
+        <li><strong>2011, August</strong> Learning for all: tools to support differentiation in the classroom — webinar, The Scholastic Professional Media Presentation Series</li>
+        <li><strong>2011, June</strong> Conversations about collaboration: building the bridge between higher education and K-12 — National Center for the Learning Environment Annual National Conference, Mesa, AZ</li>
+        <li><strong>2011, March</strong> Finding your purpose: become a teacher — Conference of Future Educators of America, Phoenix, AZ</li>
+      </ul></div>
+    </details>
+
+    <details class="acc reveal"><summary>Regional &amp; State Presentations</summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2022</strong> What makes great leadership? SLIP – Student Leadership Innovation Program, Arizona State University</li>
+        <li><strong>2018</strong> Articulation in teacher preparation — Arizona Articulation Taskforce annual meeting</li>
+        <li><strong>2018</strong> How will you be helping us change education? — invited address, ASU More2Explore event</li>
+        <li><strong>2014</strong> Differentiated instruction — invited speaker, Red Mesa Unified School District</li>
+        <li><strong>2014</strong> Student engagement — invited speaker, Red Mesa Unified School District</li>
+        <li><strong>2013</strong> How to succeed in higher education — invited address, Preparing Future Faculty Quarterly Meeting, Tempe, AZ</li>
+        <li><strong>2012, June</strong> Teachers matter — invited address, The New Teacher Project's Arizona Teaching Fellows annual induction event, Phoenix, AZ</li>
+        <li><strong>2009, April</strong> Classroom management: it feels like herding cats — keynote, Arizona Dept. of Health Services, Nutrition Network</li>
+        <li><strong>2006, February</strong> Classroom management for health educators — keynote, Arizona Dept. of Health Services, Nutrition Network</li>
+        <li><strong>2006, October</strong> TaskStream: tools of engagement for teacher preparation programs — poster session, Arizona DOE Title IIA unit review</li>
+        <li><strong>2006, November</strong> Data collection and TaskStream — poster session, Teacher Education Accreditation Council board of examiners</li>
+        <li><strong>2000, March</strong> Games for teachers — poster session, Annual Western Regional Middle Level Consortium Conference, Las Vegas, NV</li>
+      </ul></div>
+    </details>
+
+    <h3 class="sub-head reveal">Media Interviews &amp; Public Engagements</h3>
+    <details class="acc reveal"><summary>Media Interviews &amp; Public Engagements</summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2024, May 16</strong> MLFTC launches bachelor's program in middle grades education — MLFTC News</li>
+        <li><strong>2023, Nov 9</strong> Despite state initiatives, Arizona struggles to retain teachers — The State Press</li>
+        <li><strong>2023, Sep 13</strong> MLFTC welcomes the first cohorts in ASU Teaching Fellows program — MLFTC News</li>
+        <li><strong>2023, Jul 23</strong> Setting new teachers up for success in the fall — panel presentation, National Institute for Excellence in Teaching (NIET)</li>
+        <li><strong>2023, Jun 13</strong> Many teacher prep programs include debunked methods to teach kids to read, new report finds — Chalkbeat</li>
+        <li><strong>2023, Apr 12</strong> ASU Teaching Fellows offers paraeducators accelerated degree pathway — MLFTC News</li>
+        <li><strong>2020, Jun 1</strong> The student success team: Part 1 — Slice of PI podcast</li>
+        <li><strong>2019, Sep 12</strong> A position of trust: teachers accused of sexual misconduct — azcentral.com / KJZZ interview</li>
+        <li><strong>2019, Aug 25</strong> A position of trust: Part four — KJZZ radio broadcast interview</li>
+        <li><strong>2019, Feb 18</strong> MLFTC's position on Senate Bill 1503 — Arizona Senate Legislature's Education Committee meeting</li>
+        <li><strong>2018</strong> Interview with Erica Mitchell, Martha A. Cocchiarella, Carlyn Ludlow, and Pam J. Harris — Mentoring and Coaching Monthly</li>
+      </ul></div>
+    </details>
+
+    <h3 class="sub-head reveal">Professional Development Facilitation</h3>
+    <details class="acc reveal"><summary>Professional Development Facilitation</summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2025</strong> Invited co-facilitator, Education Futures Roundtable and Luncheon, Arizona Educational Foundation &amp; MLFC, ASU</li>
+        <li><strong>2025</strong> Panelist, Education Reimagine Annual Board Retreat, Tempe, AZ</li>
+        <li><strong>2024</strong> Invited workshop co-facilitator, Practical Education: Alternatives and Solutions, USAID Teacher Excellence Initiative, Cairo, Egypt</li>
+        <li><strong>2024</strong> Invited presenter, Arizona Superintendents Education Futures Roundtable, MLFTC, ASU</li>
+        <li><strong>2023</strong> Invited presenter, Teacher's College Town Hall, ASU Undergraduate Student Government</li>
+        <li><strong>2022</strong> Panelist, Teachers College Council's Annual Student Alumna Brunch, MLFTC, ASU</li>
+        <li><strong>2022</strong> Presenter, Teacher Preparation Redesign: What You Need to Know — Teachers College Council monthly meeting, MLFTC, ASU</li>
+        <li><strong>2021</strong> Panelist, site-visitors from Utah State University, MLFTC, ASU</li>
+        <li><strong>2021</strong> Moderator, Conversations with Experts: featuring Lynn Gangone — Next Education Workforce: Building the Next Normal convening, MLFTC, ASU</li>
+        <li><strong>2020</strong> Contributor, M. Master for ASU's Commission on the Status of Women mentoring program</li>
+        <li><strong>2019</strong> Panelist, external site-visitors for Arizona Board of Regents University Academic Program Review, MLFTC, ASU</li>
+        <li><strong>2018</strong> Panelist, external site-visitors from the University of Regensburg, MLFTC, ASU</li>
+        <li><strong>2017</strong> Panelist, educational panel hosted by Men's Group of Teachers College Council, MLFTC, ASU</li>
+        <li><strong>2017</strong> Presenter, Becoming an education intrapreneur — Fall Welcome Week workshop, MLFTC, ASU</li>
+        <li><strong>2017</strong> Presenter, Navigating social media for future educators — professional development for undergraduates, MLFTC, ASU</li>
+        <li><strong>2016</strong> Presenter, Exploring education — Career Exploration Day, Student Ambassadors, MLFTC, ASU</li>
+        <li><strong>2010</strong> Invited presenter, Team building: why building a collaborative culture is important for student success — student organization leadership training</li>
+        <li><strong>2010</strong> Facilitator, Curriculum and instruction in higher education — professional development workshop for faculty</li>
+        <li><strong>2009</strong> Facilitator, Differentiation in lesson planning — professional development workshop, Precision Academy, Phoenix, AZ</li>
+        <li><strong>2009</strong> Facilitator, Application of the four domains of teacher preparation programs by Charlotte Danielson — faculty workshop</li>
+        <li><strong>2009</strong> Facilitator, Effective assessment techniques — faculty workshop</li>
+        <li><strong>2008</strong> Facilitator, Classroom management in college classrooms — faculty workshop</li>
+        <li><strong>2007</strong> Facilitator, New faculty training: what you need to know to be successful — faculty workshop</li>
+        <li><strong>2007</strong> Facilitator, TEAC and NCATE accreditation: what you need to know — faculty workshop</li>
+      </ul></div>
+    </details>
+  </div>
+</section>
+
+<section id="service">
+  <div class="wrap">
+    <div class="section-head reveal"><div class="kicker">Service</div><h2>Institutional, Professional &amp; Grant-Funded Work</h2></div>
+
+    <details class="acc reveal"><summary>National &amp; International Service</summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2025</strong> Teacher Preparation Program Diversity Advisory Consultation, National Council on Teacher Quality (NCTQ)</li>
+        <li><strong>2023–2025</strong> Member, Women's Leadership Council (WLC) — partnership between ASU and Haigazian University, CAWL grant, U.S. Embassy in Lebanon</li>
+        <li><strong>2021–2022</strong> Working Group Member, Educator Preparation Laboratory (EdPrepLab) Practice Network — MLFTC and EdPrep Lab Partnership</li>
+        <li><strong>2021–2022</strong> Ad Hoc Committee Member, Teaching in K12 Blended/Online Environments — ASU Prep Digital and MLFTC partnership</li>
+        <li><strong>2023</strong> Reviewer, Remedial and Special Education (editorial)</li>
+      </ul></div>
+    </details>
+
+    <details class="acc reveal"><summary>State Service</summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2026</strong> Work group member, Arizona Professional Teaching Standards Revisions, Arizona Dept. of Education &amp; Arizona State Board of Education</li>
+        <li><strong>2025</strong> Judge, Project Citizen State Showcase, Arizona Bar Association</li>
+        <li><strong>2023–2026</strong> Task force member, Arizona Department of Education's Educator Recruitment and Retention</li>
+        <li><strong>2024</strong> Co-author, Educator Recruitment and Retention Task Force Recommendation Report, Arizona Department of Education</li>
+        <li><strong>2023</strong> Faculty advisory member, Arizona Board of Regents survey on K-12 Teacher Preparation</li>
+        <li><strong>2021–2022</strong> Member, The Path Forward Arizona State Team, Arizona Department of Education</li>
+        <li><strong>2019–2026</strong> Task force member, Education Articulation, AZTransfer</li>
+        <li><strong>2011–2015</strong> Member &amp; Evaluator, Arizona Department of Education's Teacher Preparation Program Review Team — reviewed programs for University of Arizona, ASU, NAU, North Central University, and The New Teacher Project</li>
+        <li><strong>2011–2012</strong> Member, Arizona Teacher Preparation Program Implementation and Review Team for ISLLC and InTASC standards — developed statewide evaluation framework, Arizona Department of Education</li>
+        <li><strong>2011</strong> Member, NCLB Working Group, Arizona Department of Education</li>
+        <li><strong>2007</strong> Contributor, revision of the Arizona Educator Proficiency Assessment middle/high school social exam, ETS/Pearson</li>
+      </ul></div>
+    </details>
+
+    <details class="acc reveal"><summary>University Service</summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2025–present</strong> Assessment Delegate, University Office of Evaluation and Educational Effectiveness Assessment Liaison, MLFC, ASU</li>
+        <li><strong>2024–present</strong> Member, Student Success Leadership Council, Office of the University Provost, ASU</li>
+        <li><strong>2024–present</strong> Faculty advisor, Teachers College Council</li>
+        <li><strong>2024–2025</strong> MLFC Lead, Reducing the Time-to-Value in Higher Education Through Reimagined Degree Pathways working group</li>
+        <li><strong>2024–2025</strong> MLFC Lead, Stackable Freestanding Undergraduate Certificate Project</li>
+        <li><strong>2023–2024</strong> Working group member, High-Impact Tutoring micro-credential design team, ASU</li>
+        <li><strong>2022</strong> Member, Learning Technology Support Faculty Working Group, UTO / Learning Enterprise / Ed Plus / Provost's Office</li>
+        <li><strong>2021–2024</strong> Elected Member, University Senate, ASU</li>
+        <li><strong>2021–2023</strong> Member, University Senate Personnel Committee, ASU</li>
+        <li><strong>2021–2022</strong> Refugee Education Steering Group member, ASU</li>
+        <li><strong>2021–2022</strong> ASU General Studies Faculty Advisory Committee Member</li>
+        <li><strong>2018–2019</strong> Contributor, Student Success Today Provost-sponsored working group, ASU</li>
+      </ul></div>
+    </details>
+
+    <details class="acc reveal"><summary>College Service <span class="acc-meta">MLFTC / MLFC, Arizona State University</span></summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2025–2028</strong> Elected Member of Governance and Policy Standing Committee</li>
+        <li><strong>2025–2026</strong> Member, International Partnerships and Outreach for Global Engagement Working Group</li>
+        <li><strong>2024–2026</strong> Co-lead, Strengthening Educator Pipelines and Retention Working Group — partnership with City Year</li>
+        <li><strong>2024–2026</strong> Lead, SESI and ASU Special Education Alliance — partnership with FullBloom's Specialized Education Service Inc.</li>
+        <li><strong>2025</strong> Member, Career Track Faculty Promotion Advisory Group</li>
+        <li><strong>2024–2026</strong> Chair, Undergraduate Curriculum Topical Action Group, Division of Teacher Preparation</li>
+        <li><strong>2024–2025</strong> Member, Global Teacher Education Learning Futures Collaborative</li>
+        <li><strong>2024–2025</strong> Member, Faculty Recognition Committee</li>
+        <li><strong>2022–2026</strong> Member, Continuous Improvement Topical Action Group, Division of Teacher Preparation</li>
+        <li><strong>2024</strong> Member, Enterprise to Partnership (E2P) Task Force</li>
+        <li><strong>2024</strong> Chair, Ad Hoc Hiring Committee for five Clinical Assistant Professors of Elementary Education</li>
+        <li><strong>2024</strong> Member, Ad Hoc Hiring Committee for one Clinical Assistant Professor of Social Studies</li>
+        <li><strong>2024</strong> Faculty representative, Ad Hoc Hiring Committee for a Professional Education Services Director</li>
+        <li><strong>2023–2024</strong> Member, Curriculum Topical Action Group, Division of Teacher Preparation</li>
+        <li><strong>2023</strong> Co-led, Career-Track Faculty Workload Policy Analysis and Revision</li>
+        <li><strong>2023</strong> Member, Ad Hoc Hiring Committees for two Clinical Assistant Professors of Elementary Education, three Clinical Assistant Professors of Education Foundations, and one Clinical Associate Professor</li>
+        <li><strong>2023</strong> Faculty representative, Ad Hoc Hiring Committee for a Professional Licensure Officer</li>
+        <li><strong>2023</strong> Faculty representative, Ad Hoc Hiring Committee for a Program Manager of Educator Pathways for Next Education Workforce</li>
+        <li><strong>2022</strong> Member, Professionalism Policy Working Group</li>
+        <li><strong>2022–2024</strong> Project Advisory Board member, Teacher School Leadership Grant New@MPS — MLFTC and Mesa Public Schools</li>
+        <li><strong>2022, 2021</strong> Reviewer, Faculty promotion, Division of Teacher Preparation</li>
+        <li><strong>2021</strong> Chair, Grading Policy Working Group, Division of Teacher Preparation</li>
+        <li><strong>2021</strong> Member, Ad Hoc Hiring Committee for a Clinical Assistant Professor of Educational Foundations</li>
+        <li><strong>2021</strong> Faculty representative, Ad Hoc Hiring Committee for the Director of Student Success</li>
+        <li><strong>2021, 2019</strong> Platform party, Name reader, MLFTC Convocation</li>
+        <li><strong>2020–2023</strong> Topical Action Group lead for Undergraduate Design, Division of Teacher Preparation</li>
+        <li><strong>2018–2022</strong> Steering Committee Member of the Principled Innovation initiative</li>
+        <li><strong>2020–2021</strong> Ambassador and member, Principled Innovation Accelerator Faculty Fellow</li>
+        <li><strong>2015–2021</strong> Delegate, Outstanding Teacher Resident Selection Committee</li>
+        <li><strong>2015–2021</strong> Course Coordinator, TEL 111, TEL 102, TEL 212</li>
+        <li><strong>2019–2020</strong> Contributor, Student Support Network working group</li>
+        <li><strong>2016–2026</strong> Member, College Assembly and Welcome Week working group</li>
+        <li><strong>2019–2020</strong> Member, Program Redesign Ad Hoc Committee</li>
+        <li><strong>2019</strong> Member, Arizona Board of Regents Self-Study Report working group</li>
+        <li><strong>2019</strong> Member, National Council for Teacher Quality Evaluation Response Working Group</li>
+        <li><strong>2019</strong> Faculty representative, Ad Hoc Hiring Committee for two positions, Office of Student Services</li>
+        <li><strong>2018–2019</strong> Member, Character Education Sub-Committee for Student Success</li>
+        <li><strong>2018</strong> Contributor, Teacher Preparation Guiding Principles working group</li>
+        <li><strong>2018</strong> Chair, Ad Hoc Hiring Committee for five instructor positions</li>
+        <li><strong>2018</strong> Chair, Ad Hoc Hiring Committee for two instructor positions</li>
+        <li><strong>2018</strong> Faculty representative, Ad Hoc Hiring Committee for three student success coach positions</li>
+        <li><strong>2018</strong> Faculty representative, Ad Hoc Hiring Committee for 16 peer leader positions</li>
+        <li><strong>2016</strong> Faculty representative, Ad Hoc Hiring Committee for a manager position, Office of Student Services</li>
+        <li><strong>2016–2019</strong> Faculty lead, Student Support Committee, Division of Teacher Preparation</li>
+        <li><strong>2016–2017</strong> Camp Teach Planning Committee and EdVenture Planning Committee</li>
+        <li><strong>2015–2018</strong> Faculty lead, Freshman Case Management Committee</li>
+      </ul></div>
+    </details>
+
+    <details class="acc reveal"><summary>External Grants</summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>10/2021–9/2024, $8.2MM</strong> Building Human Capital Management Systems to Support the Next Education Workforce in Mesa Public Schools (NEW@MPS) — U.S. Dept. of Education, TSL Grant. Role: Contributor and Committee Member.</li>
+        <li><strong>9/2018–9/2021, $4.8MM</strong> Reimagining the education workforce for the 21st century — U.S. Dept. of Education, TQP Grant. Role: Contributor and Steering Committee Member.</li>
+        <li><strong>2019–2024, $12,445,645</strong> Character Education in Systems of Teacher and Leader Preparation — Kern Family Foundation (via ASU Foundation). Role: Contributor and Steering Committee Member.</li>
+        <li><strong>2019, $10,000</strong> MLFC's First-Year Learning Communities — private donor (via ASU Foundation).</li>
+      </ul></div>
+    </details>
+  </div>
+</section>
+
+<section id="mentorship">
+  <div class="wrap">
+    <div class="section-head reveal"><div class="kicker">Mentorship</div><h2>Faculty &amp; Students</h2></div>
+
+    <details class="acc reveal"><summary>Faculty</summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2023–2024</strong> Mentored A. Holton in her new leadership role implementing the ASU Teaching Fellows program</li>
+        <li><strong>2023–2024</strong> Mentored three new division strategists — K. Miltenberger, C. Johnston, T. Flesher — in new leadership roles</li>
+        <li><strong>2023–2024</strong> Mentored two ASU Teaching Fellows faculty as they expanded their role in the college — A. Garcia, E. Flores</li>
+        <li><strong>2020</strong> Mentored K. Miltenberger in his new leadership role as program strategist for elementary education</li>
+        <li><strong>2019</strong> Mentored A. Brown in her new leadership role as program strategist for the lower division</li>
+        <li><strong>2019</strong> Mentored new full-time instructor R. Wolpinsky, spring 2019</li>
+        <li><strong>2018</strong> Mentored new full-time instructor G. Smith, spring 2018</li>
+        <li><strong>2018</strong> Mentored new full-time instructor A. Brown, fall 2018</li>
+        <li><strong>2015–2018</strong> Mentored five full-time faculty and two faculty associates new to teaching in the LEAD project</li>
+      </ul></div>
+    </details>
+
+    <details class="acc reveal"><summary>Students</summary>
+      <div class="acc-body"><ul class="acc-list">
+        <li><strong>2026–2027</strong> Dissertation committee member, Garcia, Audrey — Doctor of Education, Arizona State University</li>
+        <li><strong>2023–2025</strong> Dissertation committee member, Jarvis, Jennifer — Doctor of Education, ASU. Dissertation: A Systems-Change Approach to Academic Contracts</li>
+        <li><strong>2023</strong> Committee member, Morgan, Laurel — BAE Elementary Education, Barrett Honors College &amp; MLFTC. Honors Thesis: Life at the Bottom: How the COVID-19 Pandemic Impacted Schools</li>
+        <li><strong>2018</strong> Committee chair, Fu, Angela — BAE Elementary Education, Barrett Honors College &amp; MLFTC. Honors Thesis: Analysis on the Consolidation of School Districts: A New Way to Address Educational Inequity</li>
+        <li><strong>2018</strong> Committee chair, Franklin, Keely — BAE Elementary Education, Barrett Honors College &amp; MLFTC. Honors Thesis: Analysis of the Elementary and Secondary Education Act and its Reauthorizations</li>
+        <li><strong>2016–2017</strong> Committee chair, Slater, Sarah — BAE Secondary Education, Barrett Honors College &amp; MLFTC. Honors Thesis: Multi-Age Classroom Curriculum Implementing Thematic Units, Grades 4-6</li>
+        <li><strong>2015–2016</strong> Committee member, Carbonaro, Phyllis — Doctor of Education, Grand Canyon University. Dissertation: Examining the Relationship of Communication Styles Pairings and Self-Efficacy During the Student Teaching Experience</li>
+      </ul></div>
+    </details>
+  </div>
+</section>
+
+
+
+<section id="memberships">
+  <div class="wrap">
+    <div class="section-head reveal"><div class="kicker">Professional Associations</div><h2>Organizations &amp; Professional Communities</h2></div>
+    <div class="tag-cloud reveal">
+      <span class="tag">Arizona State University Career Faculty Association</span>
+      <span class="tag">American Association of Colleges for Teacher Education (AACTE)</span>
+      <span class="tag">American Association for the Advancement of Science (AAAS)</span>
+      <span class="tag">National Association of State Directors of Teacher Education and Certification (NASDTEC)</span>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="kicker" style="color:var(--brass-lt);">Connect</div>
+    <h2>Learning, Strategy &amp; Program Innovation</h2>
+    <p class="section-intro">For conversations about learning strategy, program development, workforce pathways, curriculum innovation, professional learning, or cross-sector partnerships.</p>
+    <div class="contact-row">
+      <div class="contact-item"><a href="mailto:carlyn.ludlow@gmail.com">carlyn.ludlow@gmail.com</a></div>
+      <div class="contact-item"><a href="tel:+16022905191">(602) 290-5191</a></div>
+      <div class="contact-item"><a href="Carlyn_Ludlow_CV.pdf" download style="border-color:var(--brass-lt);">Download Full CV (PDF) ↓</a></div>
+    </div>
+    <div class="foot-bottom">
+      <span>Dr. Carlyn Ludlow — </span>
+      <span>Built with intention.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.08 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+
+
+<script>
+  const navAnchors = Array.from(document.querySelectorAll('.nav-links a[href^="#"]'));
+  const watchedSections = navAnchors
+    .map(a => document.querySelector(a.getAttribute('href')))
+    .filter(Boolean);
+
+  const setActiveNav = () => {
+    let current = watchedSections[0];
+    watchedSections.forEach(section => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= 150) current = section;
+    });
+    navAnchors.forEach(a => {
+      a.classList.toggle('active', current && a.getAttribute('href') === '#' + current.id);
+    });
+  };
+
+  document.addEventListener('scroll', setActiveNav, { passive:true });
+  window.addEventListener('load', setActiveNav);
+</script>
+
+</body>
+</html>
