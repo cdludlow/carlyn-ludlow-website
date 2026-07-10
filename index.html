@@ -1039,6 +1039,84 @@ html{
 }
 </style>
 
+
+<style>
+.hero-story{
+  grid-template-columns:minmax(0, 1fr) minmax(210px, 275px) !important;
+  gap:48px !important;
+}
+.hero-visual{
+  width:100%;
+  max-width:265px;
+  justify-self:end;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:14px;
+}
+.hero-monogram{
+  font-family:var(--display);
+  font-size:2.15rem;
+  line-height:1;
+  letter-spacing:.08em;
+  color:var(--forest);
+  border-bottom:1px solid var(--brass);
+  padding:0 14px 8px;
+}
+.hero-portrait-wrap{
+  max-width:250px !important;
+}
+@media(max-width:850px){
+  .hero-visual{
+    justify-self:start;
+    align-items:flex-start;
+    max-width:235px;
+  }
+  .hero-portrait-wrap{
+    max-width:220px !important;
+  }
+  .hero-monogram{
+    margin-left:0;
+  }
+}
+</style>
+
+
+<style>
+.hero-monogram{
+  width:76px !important;
+  height:76px !important;
+  border-radius:50% !important;
+  border:1px solid var(--brass) !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  padding:0 !important;
+  border-bottom:1px solid var(--brass) !important;
+  font-family:var(--display) !important;
+  font-size:1.8rem !important;
+  line-height:1 !important;
+  letter-spacing:.04em !important;
+  color:var(--forest) !important;
+  background:var(--parchment) !important;
+}
+</style>
+
+
+<style>
+.hero-monogram{
+  width:94px !important;
+  height:94px !important;
+  border:1px solid var(--brass) !important;
+  outline:1px solid var(--brass) !important;
+  outline-offset:6px !important;
+  border-radius:50% !important;
+  font-size:2.15rem !important;
+  margin:7px 0 10px !important;
+  background:var(--parchment) !important;
+}
+</style>
+
 </head>
 <body>
 <div id="top"></div>
@@ -1080,7 +1158,10 @@ html{
           <a class="btn btn-brass" href="#contact">Connect With Me</a>
         </div>
       </div>
+      <div class="hero-visual">
+      <div class="hero-monogram" aria-hidden="true">CL</div>
       <div class="hero-portrait-wrap"><img class="hero-portrait" src="carlyn-ludlow-headshot.jpg" alt="Carlyn Ludlow"></div>
+    </div>
     </div>
   </div>
 </section>
